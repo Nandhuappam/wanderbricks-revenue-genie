@@ -1,0 +1,90 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Game Plan – Revenue & Booking Analyst</title>
+<style>
+@page{size:A4;margin:16mm 15mm 16mm 15mm}
+body{font-family:"Inter","Segoe UI",Helvetica,Arial,sans-serif;color:#1b2330;font-size:10.5pt;line-height:1.45;margin:0}
+h1{color:#e8401c;font-size:21pt;margin:0 0 4px;line-height:1.2}
+.sub{color:#5a6677;font-size:10pt;margin-bottom:10px}
+.rule{height:3px;background:#e8401c;margin:8px 0 14px}
+h2{color:#1e3a5f;font-size:14pt;margin:18px 0 6px;padding-bottom:4px;border-bottom:1px solid #d6dce5;page-break-after:avoid}
+h2 .n{display:inline-block;background:#1e3a5f;color:#fff;border-radius:50%;width:22px;height:22px;text-align:center;line-height:22px;font-size:11pt;margin-right:8px}
+h3{page-break-after:avoid;color:#2b4f7e;font-size:11pt;margin:12px 0 4px}
+table{width:100%;border-collapse:collapse;margin:6px 0 10px;font-size:9.5pt;page-break-inside:avoid}
+th{background:#1e3a5f;color:#fff;text-align:left;padding:6px 8px;font-weight:600}
+td{border:1px solid #d6dce5;padding:5px 8px;vertical-align:top}
+tr:nth-child(even) td{background:#f4f6fa}
+code{font-family:"JetBrains Mono",Consolas,monospace;background:#eef1f6;padding:1px 4px;border-radius:3px;font-size:8.8pt}
+.meta td:first-child{width:24%;font-weight:600}
+.callout{border-left:4px solid #e8401c;background:#fdf0ec;padding:8px 12px;margin:8px 0;page-break-inside:avoid}
+.kpis{display:flex;gap:8px;margin:8px 0}
+.kpi{flex:1;border:1px solid #d6dce5;border-radius:6px;padding:8px;text-align:center}
+.kpi b{display:block;font-size:15pt;color:#e8401c}
+.kpi span{font-size:8.5pt;color:#5a6677}
+ol.q li{margin:3px 0}
+.foot{margin-top:16px;color:#7a8594;font-size:8.5pt;font-style:italic}
+</style></head><body>
+<h1>Revenue &amp; Booking Analyst<br>5-Point Game Plan</h1>
+<div class="sub">Databricks Genie AI Agent + Databricks App &nbsp;·&nbsp; Data: <code>samples.wanderbricks</code> + synthetic dataset</div>
+<div class="rule"></div>
+<table class="meta"><tr><th>Field</th><th>Value</th></tr>
+<tr><td>Use case</td><td>Revenue &amp; Booking Analyst</td></tr>
+<tr><td>Persona</td><td>Revenue analysts, market / destination managers, business leaders (non-SQL users)</td></tr>
+<tr><td>Status</td><td>Proposed. Submitted 24 Nov 2026 for Pod Lead review &amp; validation</td></tr>
+<tr><td>Repository</td><td><code>github.com/Nandhuappam/wanderbricks-revenue-genie</code></td></tr>
+<tr><td>Owner</td><td>Data &amp; Analytics Team</td></tr></table>
+
+<h2><span class="n">1</span>The Problem &amp; User</h2>
+<table><col style="width:22%"><col>
+<tr><td><b>Who</b></td><td>Revenue analysts, market/destination managers and executives. They know the business but don't write SQL.</td></tr>
+<tr><td><b>Daily headache</b></td><td>Every revenue or booking question ("What was revenue last quarter?", "Which destinations are growing?") becomes a ticket to the data team and takes <b>hours to days</b>. Teams also calculate "revenue" differently: some include pending or cancelled bookings, some don't.</td></tr>
+<tr><td><b>What we build</b></td><td>A <b>Genie AI Agent</b> on governed Gold views that answers in plain English, wrapped in a <b>Databricks App</b>: a chat page showing the answer, a result table and the SQL used.</td></tr></table>
+
+<h2><span class="n">2</span>The Data (5 Tables)</h2>
+<p>Source: Unity Catalog <code>samples.wanderbricks</code>, plus an equivalent <b>synthetic dataset</b> in the repo (<code>data/csv/</code>, seeded generator) for demos and testing. Star schema with <code>bookings</code> as the fact table; destination is reached <i>through</i> properties.</p>
+<table><tr><th>Table</th><th>Role</th><th>Synthetic rows</th><th>Cleanup needed</th></tr>
+<tr><td><code>bookings</code></td><td>Fact</td><td>10,075</td><td>Standardise <code>status</code> case and whitespace; dedupe on <code>booking_id</code> (keep latest <code>updated_at</code>); drop check-out ≤ check-in; drop null/negative amounts</td></tr>
+<tr><td><code>properties</code></td><td>Dimension</td><td>600</td><td>Standardise <code>property_type</code>; drop free-text description</td></tr>
+<tr><td><code>destinations</code></td><td>Dimension</td><td>30</td><td>Drop long markdown <code>description</code></td></tr>
+<tr><td><code>users</code></td><td>Dimension</td><td>2,000</td><td><b>PII:</b> remove <code>email</code>, <code>name</code></td></tr>
+<tr><td><code>hosts</code></td><td>Dimension</td><td>200</td><td><b>PII:</b> remove <code>name</code>, <code>email</code>, <code>phone</code>; use <code>host_id</code> / <code>Host-&lt;id&gt;</code></td></tr></table>
+<div class="callout"><b>Cleanup verified:</b> the synthetic data contains 300 deliberately dirty rows (150 messy status values, 75 duplicates, 40 bad date ranges, 20 null and 15 negative amounts). The Gold layer reduces bookings from <b>10,075 to 9,925</b> clean rows with 3 status values (<code>confirmed</code>, <code>pending</code>, <code>cancelled</code>) and 0 duplicates. Joins add no extra rows.</div>
+<p><b>Gold views</b> (<code>wanderbricks_genie.gold</code>): <code>fact_bookings</code>, <code>dim_property</code>, <code>dim_guest</code>, <code>dim_host</code>, and the wide Genie-friendly <code>v_booking_revenue</code>.</p>
+
+<h2><span class="n">3</span>Sample Questions</h2>
+<table><tr><th style="width:5%">#</th><th>What the user types</th><th style="width:36%">Expected answer (synthetic data)</th></tr>
+<tr><td>1</td><td>"What was total booking revenue last quarter?"</td><td>879,572.47 (Q3 2026)</td></tr>
+<tr><td>2</td><td>"Which destinations had the most confirmed bookings?"</td><td>Vancouver 298, New York 296, Amsterdam 294</td></tr>
+<tr><td>3</td><td>"What's the average booking value by property type?"</td><td>Villa 2,373 · House 1,050 · … · Studio 471</td></tr>
+<tr><td>4</td><td>"Who are the top 10 hosts by total revenue?"</td><td>Host-160 117,459 · Host-2 107,274 · …</td></tr>
+<tr><td>5</td><td>"What share of bookings come from business users?"</td><td>18.4% of confirmed bookings</td></tr></table>
+<p style="font-size:9pt;color:#5a6677">Five more held-out benchmark questions (monthly trend, cancellation rate, length of stay, verified hosts, pending pipeline) are in <code>genie/benchmark_questions.md</code>.</p>
+
+<h2><span class="n">4</span>Build Plan</h2>
+<table><tr><th style="width:5%">#</th><th style="width:24%">Step</th><th>What we do</th><th style="width:27%">Repo file</th></tr>
+<tr><td>1</td><td>Load data</td><td>Use <code>samples.wanderbricks</code>, or upload the synthetic CSVs to a UC volume and create bronze tables</td><td><code>sql/00_load_synthetic_data.sql</code></td></tr>
+<tr><td>2</td><td>Clean → Gold views</td><td>Dedupe, standardise, validate, remove PII, add <code>nights</code>, <code>is_confirmed</code>, <code>confirmed_revenue</code></td><td><code>sql/01_gold_views.sql</code></td></tr>
+<tr><td>3</td><td>Data-quality checks</td><td>Profile the source; confirm Gold has 0 duplicates, revenue reconciles, joins add no extra rows</td><td><code>sql/02_data_quality_checks.sql</code></td></tr>
+<tr><td>4</td><td>Genie agent + rules</td><td>Genie space on Gold views; business rules, synonyms, example SQL</td><td><code>genie/instructions.md</code></td></tr>
+<tr><td>5</td><td>Benchmark accuracy</td><td>10 benchmark questions; target ≥ 9/10 correct before sign-off</td><td><code>genie/benchmark_questions.md</code></td></tr>
+<tr><td>6</td><td>Databricks App</td><td>Streamlit chat UI on the Genie Conversation API: answer, table, SQL</td><td><code>app/app.py</code>, <code>app.yaml</code></td></tr>
+<tr><td>7</td><td>Pilot</td><td>Pod Lead sign-off, then 5–10 pilot users; track adoption and accuracy</td><td>—</td></tr></table>
+<div style="page-break-inside:avoid"><h3>Business rules given to the agent</h3>
+<ul style="margin-top:2px">
+<li><b>Revenue</b> = <code>SUM(total_amount)</code> where <code>status = 'confirmed'</code> only. Pending and cancelled bookings are never counted.</li>
+<li><b>Bookings</b> with no status mentioned = confirmed bookings.</li>
+<li><b>Average Booking Value</b> = confirmed revenue ÷ confirmed bookings. <b>Length of stay</b> = <code>datediff(check_out, check_in)</code>.</li>
+<li>Revenue and stay questions use <b>check-in date</b>; "bookings made in…" uses <b>created date</b>. "Last quarter" = previous full calendar quarter.</li>
+<li>Never return guest or host personal details.</li></ul></div>
+
+<h2><span class="n">5</span>Business Impact</h2>
+<div class="kpis">
+<div class="kpi"><b>≥ 10 h/wk</b><span>analyst time saved from ad-hoc requests</span></div>
+<div class="kpi"><b>Seconds</b><span>time to answer, instead of hours or days</span></div>
+<div class="kpi"><b>≥ 90%</b><span>benchmark answer accuracy</span></div>
+<div class="kpi"><b>≥ 50%</b><span>target users active weekly by week 4</span></div></div>
+<ul>
+<li><b>Self-service:</b> managers get answers themselves, without SQL and without a ticket.</li>
+<li><b>One version of the truth:</b> a single governed definition of revenue (confirmed only), so every team reports the same number.</li>
+<li><b>Trust &amp; compliance:</b> every answer shows its SQL, and the Gold views contain no PII.</li>
+<li><b>Scalable:</b> payments, reviews and amenities tables can be added later for refund, satisfaction and property-search questions.</li></ul>
+<div class="foot">Expected answers were produced by running the Gold logic on the synthetic dataset (tests/validate_local.py, "today" = 24 Nov 2026). Numbers on samples.wanderbricks will differ.</div>
+</body></html>

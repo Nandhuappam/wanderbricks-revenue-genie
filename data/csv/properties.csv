@@ -1,0 +1,601 @@
+property_id,host_id,destination_id,title,description,base_price,property_type,max_guests,bedrooms,bathrooms,property_latitude,property_longitude,created_at
+1,34,18,Rustic apartment in Vancouver,A rustic apartment in vancouver with 3 bedroom(s).,127.51,apartment,6,3,3,-33.425189,-12.496805,2024-09-07 16:26:49
+2,165,19,Quiet house in Mexico City,A quiet house in mexico city with 2 bedroom(s).,107.91,house,4,2,2,4.99745,63.629427,2023-12-07 04:56:53
+3,111,21,Modern condo in Tokyo,A modern condo in tokyo with 3 bedroom(s).,160.5,condo,6,3,3,43.139081,19.887576,2023-09-15 05:10:20
+4,73,8,Rustic studio in Florence,A rustic studio in florence with 1 bedroom(s).,127.54,studio,2,1,1,-14.939469,51.465415,2023-07-17 04:40:19
+5,40,3,Luxury villa in London,A luxury villa in london with 4 bedroom(s).,648.32,villa,8,4,4,25.873287,74.570847,2023-11-23 18:02:52
+6,68,3,Luxury studio in London,A luxury studio in london with 1 bedroom(s).,157.04,studio,2,1,1,36.6959,-7.521568,2022-03-04 15:56:40
+7,77,21,Stylish house in Tokyo,A stylish house in tokyo with 4 bedroom(s).,256.37,house,8,4,3,-32.702697,-103.823481,2024-06-19 13:30:29
+8,188,20,Quiet apartment in Cancun,A quiet apartment in cancun with 1 bedroom(s).,103.47,apartment,2,1,1,57.537413,-84.693139,2024-01-29 16:35:06
+9,37,15,Charming apartment in San Francisco,A charming apartment in san francisco with 1 bedroom(s).,172.11,apartment,2,1,1,-34.939471,135.253921,2024-05-06 07:55:57
+10,196,11,Charming apartment in Berlin,A charming apartment in berlin with 3 bedroom(s).,123.7,apartment,6,3,3,9.826554,18.975707,2024-10-18 09:31:01
+11,56,13,Charming apartment in New York,A charming apartment in new york with 3 bedroom(s).,199.14,apartment,6,3,2,-35.134187,-44.033789,2024-08-21 09:34:00
+12,196,14,Quiet cabin in Miami,A quiet cabin in miami with 1 bedroom(s).,234.63,cabin,2,1,1,-3.406265,-11.842962,2023-02-03 11:35:18
+13,160,17,Spacious apartment in Toronto,A spacious apartment in toronto with 2 bedroom(s).,138.42,apartment,4,2,2,-27.133661,-93.895999,2024-02-04 10:35:23
+14,11,7,Rustic condo in Rome,A rustic condo in rome with 3 bedroom(s).,160.54,condo,6,3,3,-36.108603,72.669799,2024-08-28 16:29:09
+15,82,17,Luxury villa in Toronto,A luxury villa in toronto with 4 bedroom(s).,396.09,villa,8,4,4,-0.704541,46.455132,2023-09-05 18:21:32
+16,122,18,Spacious cabin in Vancouver,A spacious cabin in vancouver with 2 bedroom(s).,187.98,cabin,4,2,2,-3.164219,61.927726,2024-05-03 18:19:50
+17,168,28,Spacious studio in Goa,A spacious studio in goa with 1 bedroom(s).,42.74,studio,2,1,1,32.140011,37.551285,2022-12-16 16:40:46
+18,9,27,Charming villa in Dubai,A charming villa in dubai with 6 bedroom(s).,526.83,villa,12,6,6,-20.921567,-0.919587,2024-05-07 04:26:44
+19,181,17,Cozy apartment in Toronto,A cozy apartment in toronto with 3 bedroom(s).,146.92,apartment,6,3,3,11.868321,31.439429,2024-09-06 16:24:20
+20,157,15,Spacious studio in San Francisco,A spacious studio in san francisco with 1 bedroom(s).,142.23,studio,2,1,1,-20.773583,-53.439833,2023-09-04 07:19:49
+21,123,7,Quiet apartment in Rome,A quiet apartment in rome with 3 bedroom(s).,147.48,apartment,6,3,2,16.048759,132.311055,2023-07-15 09:07:36
+22,75,13,Modern villa in New York,A modern villa in new york with 6 bedroom(s).,799.1,villa,12,6,6,-11.236966,72.818148,2023-12-11 14:41:16
+23,144,7,Spacious condo in Rome,A spacious condo in rome with 1 bedroom(s).,182.92,condo,2,1,1,-26.272705,46.232799,2023-05-06 07:03:42
+24,85,8,Stylish studio in Florence,A stylish studio in florence with 1 bedroom(s).,85.66,studio,2,1,1,-29.94551,88.106836,2022-01-11 17:59:10
+25,194,30,Charming house in Sydney,A charming house in sydney with 5 bedroom(s).,274.01,house,10,5,4,-7.88323,54.392438,2022-07-03 20:36:14
+26,107,24,Modern house in Phuket,A modern house in phuket with 2 bedroom(s).,174.38,house,4,2,2,53.392261,-110.188241,2024-03-24 15:11:59
+27,77,28,Cozy condo in Goa,A cozy condo in goa with 2 bedroom(s).,77.64,condo,4,2,2,52.845485,-29.538629,2024-07-19 20:34:33
+28,85,5,Sunny house in Barcelona,A sunny house in barcelona with 5 bedroom(s).,199.32,house,10,5,5,33.111923,55.037041,2023-01-17 00:47:21
+29,157,19,Modern condo in Mexico City,A modern condo in mexico city with 3 bedroom(s).,103.81,condo,6,3,2,42.698983,19.125778,2022-06-27 12:42:06
+30,2,5,Charming apartment in Barcelona,A charming apartment in barcelona with 2 bedroom(s).,124.82,apartment,4,2,1,-1.642561,0.618591,2023-07-01 10:19:37
+31,16,1,Charming condo in Paris,A charming condo in paris with 2 bedroom(s).,213.36,condo,4,2,2,6.539499,-76.876457,2024-10-26 22:49:19
+32,57,21,Charming condo in Tokyo,A charming condo in tokyo with 2 bedroom(s).,175.7,condo,4,2,2,7.81819,2.844242,2024-02-05 13:44:35
+33,21,25,Luxury studio in Bali,A luxury studio in bali with 1 bedroom(s).,64.0,studio,2,1,1,12.817312,-22.318085,2022-08-18 01:53:35
+34,114,7,Rustic studio in Rome,A rustic studio in rome with 1 bedroom(s).,83.91,studio,2,1,1,28.029524,73.567851,2024-09-28 02:57:32
+35,117,2,Stylish house in Nice,A stylish house in nice with 5 bedroom(s).,201.09,house,10,5,5,15.87972,61.647282,2023-09-24 23:01:25
+36,12,1,Sunny apartment in Paris,A sunny apartment in paris with 3 bedroom(s).,148.18,apartment,6,3,2,-5.547113,-102.784824,2022-05-04 02:59:30
+37,96,14,Stylish apartment in Miami,A stylish apartment in miami with 1 bedroom(s).,176.49,apartment,2,1,1,4.853713,127.621071,2024-02-13 12:05:43
+38,31,28,Quiet loft in Goa,A quiet loft in goa with 1 bedroom(s).,87.53,loft,2,1,1,59.284678,-13.874169,2022-09-18 23:14:53
+39,109,1,Rustic apartment in Paris,A rustic apartment in paris with 2 bedroom(s).,166.38,apartment,4,2,1,42.336044,-53.17175,2023-12-10 04:17:12
+40,158,24,Stylish studio in Phuket,A stylish studio in phuket with 1 bedroom(s).,52.13,studio,2,1,1,-15.933371,-101.831456,2022-03-10 14:38:43
+41,113,2,Stylish condo in Nice,A stylish condo in nice with 1 bedroom(s).,191.52,condo,2,1,1,13.975981,83.684141,2022-04-26 04:32:18
+42,154,30,Luxury apartment in Sydney,A luxury apartment in sydney with 3 bedroom(s).,174.78,apartment,6,3,2,-16.309597,116.589747,2024-12-03 07:26:19
+43,161,18,Modern apartment in Vancouver,A modern apartment in vancouver with 3 bedroom(s).,157.86,apartment,6,3,2,15.585067,-107.341294,2023-12-07 20:42:24
+44,77,11,Modern condo in Berlin,A modern condo in berlin with 3 bedroom(s).,128.35,condo,6,3,2,-21.612102,25.240631,2023-05-09 07:19:54
+45,106,26,Rustic condo in Singapore,A rustic condo in singapore with 2 bedroom(s).,236.27,condo,4,2,1,15.728676,-83.794957,2023-05-13 08:13:21
+46,138,30,Sunny villa in Sydney,A sunny villa in sydney with 6 bedroom(s).,673.29,villa,12,6,6,-34.846337,-18.164647,2022-03-22 02:12:51
+47,54,24,Bright condo in Phuket,A bright condo in phuket with 3 bedroom(s).,109.35,condo,6,3,2,-9.681197,125.428423,2023-03-10 06:47:07
+48,181,25,Luxury condo in Bali,A luxury condo in bali with 2 bedroom(s).,110.25,condo,4,2,2,-0.336794,-55.380641,2023-10-21 09:24:29
+49,128,12,Rustic house in Munich,A rustic house in munich with 4 bedroom(s).,181.71,house,8,4,3,-30.139177,144.955983,2024-08-19 10:58:13
+50,190,14,Charming apartment in Miami,A charming apartment in miami with 1 bedroom(s).,162.18,apartment,2,1,1,-38.37801,29.394122,2024-05-05 09:09:12
+51,141,13,Bright apartment in New York,A bright apartment in new york with 3 bedroom(s).,232.65,apartment,6,3,2,-14.267324,101.829824,2024-10-01 14:10:46
+52,48,6,Bright condo in Madrid,A bright condo in madrid with 1 bedroom(s).,146.14,condo,2,1,1,12.394442,106.548493,2022-06-02 21:03:48
+53,3,5,Modern apartment in Barcelona,A modern apartment in barcelona with 3 bedroom(s).,119.35,apartment,6,3,3,10.573292,-19.235813,2024-09-16 21:31:01
+54,185,18,Rustic apartment in Vancouver,A rustic apartment in vancouver with 2 bedroom(s).,106.3,apartment,4,2,1,13.57381,-42.594095,2024-10-25 22:43:27
+55,135,30,Sunny cabin in Sydney,A sunny cabin in sydney with 1 bedroom(s).,178.11,cabin,2,1,1,-15.903117,47.340827,2023-06-01 11:17:50
+56,179,12,Charming apartment in Munich,A charming apartment in munich with 2 bedroom(s).,121.79,apartment,4,2,2,-10.002536,103.576761,2022-06-15 20:54:41
+57,122,3,Rustic condo in London,A rustic condo in london with 2 bedroom(s).,201.9,condo,4,2,2,23.674808,69.768191,2022-06-19 15:54:27
+58,59,11,Cozy villa in Berlin,A cozy villa in berlin with 3 bedroom(s).,457.01,villa,6,3,3,50.127296,66.917682,2024-08-31 08:02:59
+59,169,30,Luxury apartment in Sydney,A luxury apartment in sydney with 2 bedroom(s).,198.77,apartment,4,2,2,-22.06455,109.615452,2022-02-02 06:37:09
+60,42,23,Spacious condo in Bangkok,A spacious condo in bangkok with 2 bedroom(s).,95.0,condo,4,2,2,16.669592,109.349455,2023-11-11 12:48:47
+61,14,23,Quiet apartment in Bangkok,A quiet apartment in bangkok with 3 bedroom(s).,55.13,apartment,6,3,3,3.708825,106.442158,2023-11-29 19:49:39
+62,116,13,Spacious studio in New York,A spacious studio in new york with 1 bedroom(s).,117.12,studio,2,1,1,-17.186161,29.320186,2024-02-08 13:11:43
+63,64,13,Spacious house in New York,A spacious house in new york with 2 bedroom(s).,371.78,house,4,2,2,-31.796199,-78.36034,2022-11-12 23:24:20
+64,93,3,Bright apartment in London,A bright apartment in london with 1 bedroom(s).,215.48,apartment,2,1,1,-29.776859,-96.429747,2024-06-01 14:35:35
+65,24,4,Rustic house in Edinburgh,A rustic house in edinburgh with 2 bedroom(s).,166.39,house,4,2,1,46.371818,-116.668034,2024-04-27 12:49:05
+66,176,18,Modern condo in Vancouver,A modern condo in vancouver with 1 bedroom(s).,164.95,condo,2,1,1,-23.049825,-47.39188,2023-07-04 15:09:04
+67,93,9,Sunny apartment in Lisbon,A sunny apartment in lisbon with 2 bedroom(s).,92.55,apartment,4,2,1,54.42223,74.642852,2024-10-12 19:39:12
+68,86,5,Stylish house in Barcelona,A stylish house in barcelona with 4 bedroom(s).,173.46,house,8,4,3,40.407646,-31.023737,2023-11-17 13:52:52
+69,178,20,Luxury cabin in Cancun,A luxury cabin in cancun with 1 bedroom(s).,130.93,cabin,2,1,1,7.900974,-72.037937,2024-03-26 10:18:47
+70,97,16,Quiet condo in Austin,A quiet condo in austin with 3 bedroom(s).,149.75,condo,6,3,2,41.649452,-13.907515,2022-08-22 18:12:37
+71,182,6,Bright loft in Madrid,A bright loft in madrid with 1 bedroom(s).,196.62,loft,2,1,1,3.845495,-41.340574,2022-05-22 13:43:31
+72,184,10,Modern apartment in Amsterdam,A modern apartment in amsterdam with 1 bedroom(s).,140.71,apartment,2,1,1,38.907676,-100.029413,2024-09-08 18:25:34
+73,180,30,Quiet house in Sydney,A quiet house in sydney with 5 bedroom(s).,282.05,house,10,5,5,-29.063057,-52.977638,2023-12-29 05:41:39
+74,111,21,Quiet apartment in Tokyo,A quiet apartment in tokyo with 3 bedroom(s).,168.02,apartment,6,3,3,-38.945223,-50.14064,2024-11-11 23:33:35
+75,119,19,Stylish house in Mexico City,A stylish house in mexico city with 3 bedroom(s).,126.08,house,6,3,3,-5.503261,-113.368084,2022-08-03 09:26:58
+76,117,4,Quiet loft in Edinburgh,A quiet loft in edinburgh with 1 bedroom(s).,168.39,loft,2,1,1,12.111483,-25.95892,2022-07-19 14:46:44
+77,6,3,Sunny house in London,A sunny house in london with 4 bedroom(s).,236.19,house,8,4,3,24.796992,62.82762,2022-12-03 23:15:33
+78,60,6,Bright apartment in Madrid,A bright apartment in madrid with 2 bedroom(s).,115.71,apartment,4,2,1,22.976032,-69.67553,2024-06-04 12:01:47
+79,2,7,Stylish villa in Rome,A stylish villa in rome with 6 bedroom(s).,486.32,villa,12,6,6,-19.421552,83.127884,2022-05-09 18:06:51
+80,30,6,Bright studio in Madrid,A bright studio in madrid with 1 bedroom(s).,75.74,studio,2,1,1,27.070143,12.160674,2023-10-04 19:24:39
+81,159,4,Bright apartment in Edinburgh,A bright apartment in edinburgh with 2 bedroom(s).,115.97,apartment,4,2,2,41.373825,70.616857,2023-09-02 19:37:05
+82,47,11,Sunny villa in Berlin,A sunny villa in berlin with 3 bedroom(s).,344.8,villa,6,3,2,29.343654,17.922715,2024-05-06 19:08:36
+83,143,6,Modern apartment in Madrid,A modern apartment in madrid with 2 bedroom(s).,119.46,apartment,4,2,2,8.964203,-82.119936,2023-10-07 14:39:03
+84,144,1,Stylish studio in Paris,A stylish studio in paris with 1 bedroom(s).,103.37,studio,2,1,1,0.913435,12.765988,2024-06-28 15:10:05
+85,58,26,Spacious house in Singapore,A spacious house in singapore with 3 bedroom(s).,251.49,house,6,3,2,-23.179102,3.476775,2024-10-11 17:32:07
+86,195,9,Cozy house in Lisbon,A cozy house in lisbon with 4 bedroom(s).,169.11,house,8,4,3,14.635327,147.239447,2022-07-29 23:53:41
+87,23,10,Quiet condo in Amsterdam,A quiet condo in amsterdam with 1 bedroom(s).,182.43,condo,2,1,1,46.529047,-88.305773,2023-05-01 06:51:47
+88,53,12,Modern house in Munich,A modern house in munich with 5 bedroom(s).,173.19,house,10,5,5,40.544049,33.920073,2024-12-26 08:38:34
+89,132,23,Spacious apartment in Bangkok,A spacious apartment in bangkok with 2 bedroom(s).,61.39,apartment,4,2,2,-26.441109,82.525417,2024-04-22 01:17:55
+90,64,23,Quiet villa in Bangkok,A quiet villa in bangkok with 4 bedroom(s).,208.02,villa,8,4,3,8.945873,35.904893,2023-07-05 20:26:24
+91,178,21,Spacious house in Tokyo,A spacious house in tokyo with 2 bedroom(s).,247.28,house,4,2,1,5.469565,11.77201,2022-01-06 23:05:46
+92,102,21,Rustic loft in Tokyo,A rustic loft in tokyo with 2 bedroom(s).,264.89,loft,4,2,2,56.812858,102.708865,2024-10-10 08:20:53
+93,88,18,Bright apartment in Vancouver,A bright apartment in vancouver with 3 bedroom(s).,113.36,apartment,6,3,3,-35.405707,49.068471,2024-07-30 00:07:59
+94,52,15,Stylish cabin in San Francisco,A stylish cabin in san francisco with 2 bedroom(s).,190.47,cabin,4,2,2,48.214776,-38.496314,2023-07-16 02:41:23
+95,14,12,Modern apartment in Munich,A modern apartment in munich with 3 bedroom(s).,146.01,apartment,6,3,2,22.560427,76.016858,2023-04-25 13:41:05
+96,152,1,Modern condo in Paris,A modern condo in paris with 1 bedroom(s).,197.84,condo,2,1,1,11.944425,0.168057,2022-01-17 22:21:52
+97,19,28,Bright apartment in Goa,A bright apartment in goa with 2 bedroom(s).,61.18,apartment,4,2,2,-1.693007,77.306113,2022-07-29 03:20:23
+98,165,5,Modern studio in Barcelona,A modern studio in barcelona with 1 bedroom(s).,110.21,studio,2,1,1,-33.158839,32.088628,2022-12-03 14:22:46
+99,176,24,Luxury apartment in Phuket,A luxury apartment in phuket with 1 bedroom(s).,106.83,apartment,2,1,1,45.996252,-96.594231,2022-07-25 04:48:07
+100,36,13,Quiet house in New York,A quiet house in new york with 4 bedroom(s).,399.64,house,8,4,4,-12.303234,-97.252847,2023-08-07 22:01:54
+101,131,29,Luxury cabin in Kochi,A luxury cabin in kochi with 2 bedroom(s).,49.98,cabin,4,2,2,34.784364,-40.203646,2022-04-22 07:31:24
+102,4,16,Rustic apartment in Austin,A rustic apartment in austin with 3 bedroom(s).,117.4,apartment,6,3,2,53.39244,-84.364622,2024-05-11 11:34:43
+103,4,16,Sunny apartment in Austin,A sunny apartment in austin with 1 bedroom(s).,88.83,apartment,2,1,1,-18.425706,129.096408,2024-03-26 16:18:40
+104,22,25,Stylish condo in Bali,A stylish condo in bali with 2 bedroom(s).,90.15,condo,4,2,2,-12.253226,-36.325141,2024-11-13 06:51:09
+105,187,13,Stylish house in New York,A stylish house in new york with 2 bedroom(s).,304.42,house,4,2,2,-34.209406,-96.722544,2024-06-08 03:29:39
+106,180,10,Modern villa in Amsterdam,A modern villa in amsterdam with 4 bedroom(s).,454.19,villa,8,4,4,-23.616737,137.314374,2024-12-07 16:50:52
+107,188,6,Spacious condo in Madrid,A spacious condo in madrid with 2 bedroom(s).,111.43,condo,4,2,2,37.143029,-112.073812,2024-05-29 08:33:04
+108,131,19,Bright apartment in Mexico City,A bright apartment in mexico city with 3 bedroom(s).,64.27,apartment,6,3,2,-34.456089,112.027141,2022-12-08 11:10:16
+109,59,29,Sunny condo in Kochi,A sunny condo in kochi with 3 bedroom(s).,57.37,condo,6,3,3,-35.596209,112.990694,2023-05-16 01:30:23
+110,142,5,Cozy apartment in Barcelona,A cozy apartment in barcelona with 1 bedroom(s).,160.91,apartment,2,1,1,-17.548469,-52.96894,2023-10-18 08:52:04
+111,12,4,Rustic house in Edinburgh,A rustic house in edinburgh with 2 bedroom(s).,174.38,house,4,2,1,-33.107356,5.575428,2023-08-02 09:20:05
+112,78,1,Luxury house in Paris,A luxury house in paris with 4 bedroom(s).,240.38,house,8,4,4,6.392669,39.756552,2024-10-07 06:46:57
+113,7,26,Stylish house in Singapore,A stylish house in singapore with 3 bedroom(s).,234.29,house,6,3,3,14.15452,51.704297,2022-01-20 10:00:48
+114,61,28,Rustic villa in Goa,A rustic villa in goa with 5 bedroom(s).,160.89,villa,10,5,4,9.202888,-103.82833,2022-10-19 22:17:05
+115,118,8,Quiet apartment in Florence,A quiet apartment in florence with 3 bedroom(s).,140.98,apartment,6,3,3,18.077063,16.465496,2024-03-18 02:37:36
+116,81,22,Spacious apartment in Kyoto,A spacious apartment in kyoto with 1 bedroom(s).,119.66,apartment,2,1,1,30.072561,78.545275,2023-10-14 14:17:14
+117,28,7,Luxury apartment in Rome,A luxury apartment in rome with 1 bedroom(s).,151.93,apartment,2,1,1,-29.434225,1.383022,2023-10-06 13:07:34
+118,68,25,Bright apartment in Bali,A bright apartment in bali with 1 bedroom(s).,77.26,apartment,2,1,1,-30.957911,98.051164,2023-09-16 22:44:38
+119,92,27,Charming apartment in Dubai,A charming apartment in dubai with 2 bedroom(s).,152.55,apartment,4,2,1,11.345968,62.839512,2023-06-17 05:01:25
+120,119,18,Sunny cabin in Vancouver,A sunny cabin in vancouver with 3 bedroom(s).,175.99,cabin,6,3,3,40.389675,-82.255879,2022-01-25 01:53:49
+121,176,5,Quiet loft in Barcelona,A quiet loft in barcelona with 1 bedroom(s).,224.77,loft,2,1,1,18.23238,-50.118424,2022-06-03 00:04:12
+122,32,15,Quiet studio in San Francisco,A quiet studio in san francisco with 1 bedroom(s).,114.43,studio,2,1,1,54.228066,-106.327821,2024-06-06 23:25:31
+123,48,22,Charming apartment in Kyoto,A charming apartment in kyoto with 2 bedroom(s).,115.86,apartment,4,2,1,-12.014545,118.524426,2022-03-12 19:39:39
+124,123,10,Rustic apartment in Amsterdam,A rustic apartment in amsterdam with 2 bedroom(s).,151.75,apartment,4,2,2,-31.227845,-16.585875,2024-05-08 06:41:56
+125,5,8,Rustic condo in Florence,A rustic condo in florence with 3 bedroom(s).,210.8,condo,6,3,2,38.191577,-23.03973,2024-09-19 11:58:36
+126,153,13,Quiet house in New York,A quiet house in new york with 4 bedroom(s).,285.42,house,8,4,4,-37.069654,98.886129,2023-07-30 01:51:30
+127,64,25,Sunny house in Bali,A sunny house in bali with 3 bedroom(s).,156.02,house,6,3,3,-13.3473,100.396994,2022-04-25 07:36:54
+128,46,13,Modern loft in New York,A modern loft in new york with 2 bedroom(s).,351.6,loft,4,2,2,19.251951,97.676761,2024-01-05 18:01:45
+129,127,19,Charming condo in Mexico City,A charming condo in mexico city with 3 bedroom(s).,78.62,condo,6,3,2,-22.444323,-109.74979,2022-04-26 07:38:14
+130,52,16,Luxury apartment in Austin,A luxury apartment in austin with 1 bedroom(s).,104.42,apartment,2,1,1,-5.924096,-72.085834,2023-10-25 01:01:09
+131,94,30,Rustic house in Sydney,A rustic house in sydney with 3 bedroom(s).,310.09,house,6,3,3,-2.640922,134.319268,2024-03-21 18:06:21
+132,164,5,Stylish apartment in Barcelona,A stylish apartment in barcelona with 1 bedroom(s).,149.1,apartment,2,1,1,24.918027,-72.965279,2024-01-01 07:42:37
+133,33,13,Spacious cabin in New York,A spacious cabin in new york with 2 bedroom(s).,284.84,cabin,4,2,2,32.883096,136.172788,2024-03-12 18:02:11
+134,128,30,Sunny villa in Sydney,A sunny villa in sydney with 4 bedroom(s).,620.07,villa,8,4,4,-6.883157,-98.992208,2023-12-12 10:10:40
+135,54,3,Spacious studio in London,A spacious studio in london with 1 bedroom(s).,128.13,studio,2,1,1,29.317608,-25.370086,2022-08-10 23:00:03
+136,127,24,Stylish apartment in Phuket,A stylish apartment in phuket with 2 bedroom(s).,108.78,apartment,4,2,1,-4.876883,-18.656156,2024-09-08 18:41:48
+137,76,6,Cozy condo in Madrid,A cozy condo in madrid with 2 bedroom(s).,108.31,condo,4,2,2,-8.128309,136.948775,2022-06-01 10:10:56
+138,87,24,Sunny apartment in Phuket,A sunny apartment in phuket with 1 bedroom(s).,92.06,apartment,2,1,1,30.450465,-3.5427,2022-12-04 19:56:27
+139,105,4,Charming apartment in Edinburgh,A charming apartment in edinburgh with 2 bedroom(s).,107.99,apartment,4,2,1,26.059789,-39.701825,2022-07-16 01:25:36
+140,110,16,Cozy house in Austin,A cozy house in austin with 3 bedroom(s).,148.41,house,6,3,3,-10.545055,58.745461,2024-09-10 06:06:01
+141,30,21,Bright apartment in Tokyo,A bright apartment in tokyo with 2 bedroom(s).,190.91,apartment,4,2,1,38.487657,7.155002,2023-06-27 02:41:34
+142,12,12,Bright apartment in Munich,A bright apartment in munich with 2 bedroom(s).,116.91,apartment,4,2,1,3.974042,-48.881781,2023-07-05 18:03:09
+143,139,22,Quiet condo in Kyoto,A quiet condo in kyoto with 1 bedroom(s).,130.82,condo,2,1,1,57.070554,39.226139,2022-05-05 12:52:33
+144,122,18,Charming house in Vancouver,A charming house in vancouver with 5 bedroom(s).,228.47,house,10,5,4,-32.104495,123.749844,2022-03-13 16:36:57
+145,45,19,Bright house in Mexico City,A bright house in mexico city with 3 bedroom(s).,107.62,house,6,3,3,57.216488,98.284395,2022-09-16 01:27:05
+146,153,14,Modern loft in Miami,A modern loft in miami with 1 bedroom(s).,279.72,loft,2,1,1,-8.025051,76.317812,2022-05-18 02:24:35
+147,180,11,Cozy apartment in Berlin,A cozy apartment in berlin with 2 bedroom(s).,113.72,apartment,4,2,1,-28.748116,-79.596574,2022-07-25 03:36:49
+148,68,10,Stylish apartment in Amsterdam,A stylish apartment in amsterdam with 3 bedroom(s).,184.19,apartment,6,3,2,25.478767,34.446275,2024-08-26 01:11:17
+149,177,20,Quiet house in Cancun,A quiet house in cancun with 5 bedroom(s).,147.14,house,10,5,5,-35.070902,8.308912,2023-07-05 11:01:21
+150,179,10,Bright cabin in Amsterdam,A bright cabin in amsterdam with 2 bedroom(s).,181.53,cabin,4,2,2,57.249664,-58.451498,2023-09-08 23:28:49
+151,49,9,Sunny cabin in Lisbon,A sunny cabin in lisbon with 3 bedroom(s).,124.43,cabin,6,3,2,-18.86095,102.471747,2024-09-19 16:55:23
+152,104,17,Rustic cabin in Toronto,A rustic cabin in toronto with 1 bedroom(s).,127.75,cabin,2,1,1,38.051643,21.557279,2022-03-01 05:12:56
+153,13,27,Bright cabin in Dubai,A bright cabin in dubai with 1 bedroom(s).,204.35,cabin,2,1,1,30.463395,-46.026075,2024-08-08 16:25:40
+154,153,22,Bright studio in Kyoto,A bright studio in kyoto with 1 bedroom(s).,87.25,studio,2,1,1,-22.241631,115.029808,2023-12-18 11:10:53
+155,13,24,Stylish studio in Phuket,A stylish studio in phuket with 1 bedroom(s).,59.41,studio,2,1,1,45.382133,90.554136,2023-03-15 07:41:14
+156,122,9,Cozy villa in Lisbon,A cozy villa in lisbon with 6 bedroom(s).,352.59,villa,12,6,6,24.737155,42.308327,2022-01-18 07:16:38
+157,109,10,Spacious cabin in Amsterdam,A spacious cabin in amsterdam with 3 bedroom(s).,242.09,cabin,6,3,2,45.158617,3.929465,2023-03-23 14:19:43
+158,131,20,Cozy house in Cancun,A cozy house in cancun with 5 bedroom(s).,191.34,house,10,5,4,16.145712,40.318586,2023-08-02 09:43:06
+159,67,11,Spacious house in Berlin,A spacious house in berlin with 4 bedroom(s).,195.89,house,8,4,3,-21.163992,19.669268,2023-05-08 01:51:54
+160,185,20,Modern cabin in Cancun,A modern cabin in cancun with 2 bedroom(s).,153.61,cabin,4,2,2,25.540057,149.316657,2023-06-16 13:25:24
+161,88,19,Charming condo in Mexico City,A charming condo in mexico city with 3 bedroom(s).,113.54,condo,6,3,3,28.631811,52.344669,2024-09-01 21:22:32
+162,76,6,Modern apartment in Madrid,A modern apartment in madrid with 3 bedroom(s).,131.39,apartment,6,3,3,7.078087,80.048101,2023-01-10 21:57:21
+163,108,8,Spacious villa in Florence,A spacious villa in florence with 5 bedroom(s).,444.85,villa,10,5,4,-2.831757,38.104088,2024-08-07 03:30:03
+164,129,19,Charming studio in Mexico City,A charming studio in mexico city with 1 bedroom(s).,56.7,studio,2,1,1,46.749775,-16.949311,2023-09-04 13:03:55
+165,118,5,Luxury cabin in Barcelona,A luxury cabin in barcelona with 1 bedroom(s).,160.31,cabin,2,1,1,-8.361654,73.230483,2022-06-15 15:21:40
+166,54,11,Spacious loft in Berlin,A spacious loft in berlin with 1 bedroom(s).,128.34,loft,2,1,1,17.627892,-77.222518,2022-06-30 04:39:27
+167,2,13,Stylish villa in New York,A stylish villa in new york with 6 bedroom(s).,844.33,villa,12,6,6,13.37826,77.277949,2022-01-29 10:48:53
+168,58,1,Charming house in Paris,A charming house in paris with 2 bedroom(s).,292.14,house,4,2,1,-8.790774,-92.26878,2024-10-27 18:19:10
+169,187,2,Bright apartment in Nice,A bright apartment in nice with 2 bedroom(s).,175.43,apartment,4,2,1,3.366523,65.430642,2022-10-02 10:57:31
+170,5,7,Stylish apartment in Rome,A stylish apartment in rome with 1 bedroom(s).,161.92,apartment,2,1,1,-17.567864,145.917472,2023-03-09 23:01:37
+171,97,4,Cozy house in Edinburgh,A cozy house in edinburgh with 4 bedroom(s).,221.76,house,8,4,3,37.124966,48.24639,2022-04-09 21:06:41
+172,98,2,Bright cabin in Nice,A bright cabin in nice with 3 bedroom(s).,155.08,cabin,6,3,3,14.728238,8.087011,2022-11-10 06:44:43
+173,70,10,Rustic villa in Amsterdam,A rustic villa in amsterdam with 6 bedroom(s).,584.0,villa,12,6,6,1.882575,122.62792,2024-11-13 23:39:07
+174,52,26,Luxury apartment in Singapore,A luxury apartment in singapore with 1 bedroom(s).,168.96,apartment,2,1,1,43.149882,142.742325,2024-01-04 22:26:18
+175,85,18,Bright apartment in Vancouver,A bright apartment in vancouver with 2 bedroom(s).,159.68,apartment,4,2,2,-39.7262,61.340946,2022-08-15 18:42:31
+176,66,3,Sunny apartment in London,A sunny apartment in london with 3 bedroom(s).,146.74,apartment,6,3,3,5.675123,143.868557,2023-06-25 14:03:06
+177,174,28,Quiet cabin in Goa,A quiet cabin in goa with 1 bedroom(s).,82.85,cabin,2,1,1,2.599521,-88.706716,2022-04-04 00:54:08
+178,160,6,Bright villa in Madrid,A bright villa in madrid with 5 bedroom(s).,365.14,villa,10,5,4,47.847554,-94.903145,2023-12-03 05:07:25
+179,108,15,Bright house in San Francisco,A bright house in san francisco with 4 bedroom(s).,359.88,house,8,4,4,-28.694344,67.965866,2022-05-01 05:06:26
+180,200,16,Stylish studio in Austin,A stylish studio in austin with 1 bedroom(s).,70.53,studio,2,1,1,21.135842,112.895459,2022-09-25 15:58:31
+181,168,14,Spacious apartment in Miami,A spacious apartment in miami with 2 bedroom(s).,126.39,apartment,4,2,1,-38.763979,114.449713,2024-12-10 23:36:46
+182,25,22,Luxury house in Kyoto,A luxury house in kyoto with 4 bedroom(s).,223.26,house,8,4,3,26.171326,-52.884211,2023-12-10 21:43:41
+183,14,27,Luxury apartment in Dubai,A luxury apartment in dubai with 3 bedroom(s).,211.45,apartment,6,3,3,24.339872,-77.629609,2024-08-19 15:55:10
+184,13,16,Spacious apartment in Austin,A spacious apartment in austin with 2 bedroom(s).,99.92,apartment,4,2,2,15.049557,-17.76785,2023-04-27 02:29:28
+185,81,15,Bright cabin in San Francisco,A bright cabin in san francisco with 1 bedroom(s).,282.14,cabin,2,1,1,58.067074,81.21452,2022-02-06 03:25:26
+186,159,18,Luxury apartment in Vancouver,A luxury apartment in vancouver with 1 bedroom(s).,154.66,apartment,2,1,1,49.01109,31.829794,2024-07-23 10:23:52
+187,154,8,Luxury apartment in Florence,A luxury apartment in florence with 2 bedroom(s).,135.76,apartment,4,2,1,31.665807,-21.910472,2024-07-15 03:06:48
+188,141,1,Spacious villa in Paris,A spacious villa in paris with 5 bedroom(s).,547.09,villa,10,5,4,30.209605,-107.63991,2022-12-03 15:08:52
+189,51,24,Luxury condo in Phuket,A luxury condo in phuket with 2 bedroom(s).,88.21,condo,4,2,2,-27.925419,110.09248,2023-03-18 14:52:50
+190,163,11,Cozy apartment in Berlin,A cozy apartment in berlin with 1 bedroom(s).,125.48,apartment,2,1,1,37.214517,1.636241,2024-10-29 04:31:00
+191,131,2,Bright house in Nice,A bright house in nice with 5 bedroom(s).,275.53,house,10,5,5,29.181771,-73.114427,2022-09-20 03:24:42
+192,108,29,Stylish villa in Kochi,A stylish villa in kochi with 5 bedroom(s).,156.08,villa,10,5,5,-12.640412,140.170255,2023-08-26 14:51:08
+193,77,20,Rustic apartment in Cancun,A rustic apartment in cancun with 3 bedroom(s).,131.88,apartment,6,3,2,31.187436,132.588261,2023-03-22 06:13:39
+194,182,22,Modern condo in Kyoto,A modern condo in kyoto with 2 bedroom(s).,189.47,condo,4,2,2,10.389344,67.464233,2023-10-23 22:07:48
+195,173,16,Stylish apartment in Austin,A stylish apartment in austin with 3 bedroom(s).,116.25,apartment,6,3,2,47.747723,-5.95568,2022-01-27 16:06:01
+196,193,2,Spacious apartment in Nice,A spacious apartment in nice with 3 bedroom(s).,118.04,apartment,6,3,3,58.353239,64.515389,2022-10-27 01:44:50
+197,27,25,Bright apartment in Bali,A bright apartment in bali with 3 bedroom(s).,62.72,apartment,6,3,3,34.241274,31.543049,2023-05-02 16:50:50
+198,100,10,Stylish condo in Amsterdam,A stylish condo in amsterdam with 3 bedroom(s).,200.02,condo,6,3,2,55.670197,143.472135,2023-10-03 17:03:00
+199,58,7,Bright condo in Rome,A bright condo in rome with 3 bedroom(s).,185.79,condo,6,3,2,35.510771,27.586087,2023-02-07 23:12:18
+200,189,22,Modern house in Kyoto,A modern house in kyoto with 2 bedroom(s).,190.97,house,4,2,2,-2.280177,-4.30289,2023-06-26 04:10:37
+201,11,1,Modern cabin in Paris,A modern cabin in paris with 2 bedroom(s).,212.07,cabin,4,2,2,52.862824,41.15769,2023-09-09 15:50:36
+202,134,3,Modern house in London,A modern house in london with 4 bedroom(s).,298.49,house,8,4,4,38.625824,-76.969967,2024-04-06 02:22:14
+203,56,22,Spacious studio in Kyoto,A spacious studio in kyoto with 1 bedroom(s).,91.1,studio,2,1,1,59.663108,102.395868,2022-01-19 03:42:22
+204,98,29,Quiet house in Kochi,A quiet house in kochi with 3 bedroom(s).,88.67,house,6,3,3,-1.412407,25.864074,2023-08-03 00:58:33
+205,125,12,Bright cabin in Munich,A bright cabin in munich with 3 bedroom(s).,178.84,cabin,6,3,3,-10.356603,55.912613,2023-10-19 16:05:06
+206,54,25,Sunny apartment in Bali,A sunny apartment in bali with 3 bedroom(s).,80.08,apartment,6,3,3,46.495086,-5.463448,2022-08-01 06:34:53
+207,192,24,Sunny condo in Phuket,A sunny condo in phuket with 2 bedroom(s).,113.46,condo,4,2,2,-37.624705,73.554437,2022-03-19 02:04:03
+208,67,9,Charming apartment in Lisbon,A charming apartment in lisbon with 3 bedroom(s).,82.34,apartment,6,3,2,-1.19674,50.158661,2024-06-05 10:01:24
+209,17,18,Luxury villa in Vancouver,A luxury villa in vancouver with 3 bedroom(s).,496.42,villa,6,3,3,30.088203,-100.40085,2024-10-26 03:18:50
+210,98,20,Bright condo in Cancun,A bright condo in cancun with 1 bedroom(s).,120.47,condo,2,1,1,42.212237,-111.678829,2022-11-17 17:14:08
+211,77,26,Modern condo in Singapore,A modern condo in singapore with 3 bedroom(s).,181.88,condo,6,3,2,55.739165,-116.989444,2022-10-17 03:02:00
+212,55,13,Quiet house in New York,A quiet house in new york with 2 bedroom(s).,303.62,house,4,2,1,50.562803,109.89389,2022-10-19 05:11:14
+213,14,9,Luxury villa in Lisbon,A luxury villa in lisbon with 4 bedroom(s).,291.24,villa,8,4,3,24.467451,-100.250966,2022-05-18 08:06:12
+214,26,16,Charming condo in Austin,A charming condo in austin with 2 bedroom(s).,124.89,condo,4,2,1,21.951578,123.03202,2023-10-13 15:28:21
+215,81,10,Quiet villa in Amsterdam,A quiet villa in amsterdam with 4 bedroom(s).,560.99,villa,8,4,3,-23.136049,-35.432009,2023-03-30 22:47:41
+216,123,27,Quiet house in Dubai,A quiet house in dubai with 4 bedroom(s).,247.81,house,8,4,3,4.535797,89.18708,2024-09-24 17:06:11
+217,138,3,Modern villa in London,A modern villa in london with 5 bedroom(s).,721.34,villa,10,5,5,-13.676535,119.310675,2022-06-06 23:04:57
+218,149,17,Luxury apartment in Toronto,A luxury apartment in toronto with 3 bedroom(s).,98.5,apartment,6,3,2,36.920025,-62.554615,2022-03-17 17:16:34
+219,94,18,Modern studio in Vancouver,A modern studio in vancouver with 1 bedroom(s).,105.05,studio,2,1,1,-17.669335,88.479108,2023-08-19 04:29:32
+220,158,13,Charming house in New York,A charming house in new york with 4 bedroom(s).,332.42,house,8,4,4,35.720607,-82.099913,2022-11-23 05:36:36
+221,57,5,Cozy villa in Barcelona,A cozy villa in barcelona with 6 bedroom(s).,557.52,villa,12,6,5,-16.825009,-48.623579,2023-04-25 01:42:13
+222,12,26,Bright house in Singapore,A bright house in singapore with 4 bedroom(s).,263.15,house,8,4,4,58.058978,-32.5008,2024-12-03 20:53:17
+223,97,9,Modern cabin in Lisbon,A modern cabin in lisbon with 3 bedroom(s).,131.66,cabin,6,3,2,-3.470322,56.400868,2022-06-09 16:16:24
+224,125,8,Quiet loft in Florence,A quiet loft in florence with 2 bedroom(s).,199.43,loft,4,2,1,48.717194,-118.218625,2022-10-12 14:10:14
+225,41,21,Modern apartment in Tokyo,A modern apartment in tokyo with 2 bedroom(s).,137.86,apartment,4,2,1,20.202028,100.57787,2023-04-17 13:51:21
+226,152,16,Charming condo in Austin,A charming condo in austin with 3 bedroom(s).,132.01,condo,6,3,3,24.725923,-9.057214,2023-05-15 01:08:36
+227,15,5,Modern house in Barcelona,A modern house in barcelona with 2 bedroom(s).,259.39,house,4,2,2,-14.174035,-71.389864,2024-04-10 19:36:40
+228,22,24,Spacious apartment in Phuket,A spacious apartment in phuket with 3 bedroom(s).,96.61,apartment,6,3,3,4.920336,148.049472,2024-09-13 05:14:53
+229,68,5,Rustic house in Barcelona,A rustic house in barcelona with 3 bedroom(s).,233.38,house,6,3,3,32.41868,-27.478756,2024-07-17 19:37:04
+230,134,13,Charming apartment in New York,A charming apartment in new york with 1 bedroom(s).,168.07,apartment,2,1,1,42.651419,43.487975,2022-12-30 15:57:39
+231,155,29,Modern house in Kochi,A modern house in kochi with 2 bedroom(s).,60.62,house,4,2,2,49.696895,89.215014,2024-06-02 16:26:23
+232,197,23,Bright studio in Bangkok,A bright studio in bangkok with 1 bedroom(s).,43.36,studio,2,1,1,-4.948219,97.247681,2022-07-20 13:08:16
+233,105,8,Rustic house in Florence,A rustic house in florence with 2 bedroom(s).,217.03,house,4,2,1,-21.097899,71.470186,2022-01-15 18:33:07
+234,105,13,Quiet house in New York,A quiet house in new york with 3 bedroom(s).,359.48,house,6,3,2,-29.341678,-4.960671,2023-06-04 08:54:34
+235,194,12,Stylish house in Munich,A stylish house in munich with 4 bedroom(s).,246.77,house,8,4,4,1.322816,91.622873,2024-09-15 05:23:35
+236,189,9,Stylish house in Lisbon,A stylish house in lisbon with 4 bedroom(s).,171.71,house,8,4,4,45.499892,58.006369,2023-04-16 14:50:44
+237,141,4,Quiet studio in Edinburgh,A quiet studio in edinburgh with 1 bedroom(s).,90.53,studio,2,1,1,-23.926199,140.433968,2022-01-11 02:52:09
+238,57,20,Spacious house in Cancun,A spacious house in cancun with 5 bedroom(s).,151.14,house,10,5,4,-31.996026,-109.806059,2024-02-27 12:39:41
+239,164,23,Modern house in Bangkok,A modern house in bangkok with 2 bedroom(s).,132.36,house,4,2,1,3.897205,-65.539044,2024-11-27 09:12:02
+240,44,17,Luxury condo in Toronto,A luxury condo in toronto with 3 bedroom(s).,159.35,condo,6,3,3,-4.026,56.855162,2022-11-19 02:17:49
+241,133,22,Charming apartment in Kyoto,A charming apartment in kyoto with 2 bedroom(s).,129.68,apartment,4,2,2,33.692554,-101.473364,2022-07-04 17:18:46
+242,58,30,Spacious cabin in Sydney,A spacious cabin in sydney with 3 bedroom(s).,200.9,cabin,6,3,3,5.475901,-10.931753,2022-01-10 08:11:26
+243,30,18,Quiet house in Vancouver,A quiet house in vancouver with 2 bedroom(s).,221.71,house,4,2,1,47.611305,99.549784,2023-05-28 22:28:24
+244,175,25,Bright house in Bali,A bright house in bali with 3 bedroom(s).,143.75,house,6,3,2,49.652382,112.746285,2024-09-14 03:16:04
+245,81,26,Charming apartment in Singapore,A charming apartment in singapore with 1 bedroom(s).,182.26,apartment,2,1,1,55.544569,19.456139,2022-01-20 22:53:16
+246,20,3,Quiet apartment in London,A quiet apartment in london with 2 bedroom(s).,194.16,apartment,4,2,2,7.655545,-24.54476,2023-07-06 05:47:43
+247,189,7,Charming studio in Rome,A charming studio in rome with 1 bedroom(s).,108.64,studio,2,1,1,47.27425,-64.169769,2023-02-20 07:53:39
+248,174,25,Sunny apartment in Bali,A sunny apartment in bali with 1 bedroom(s).,65.75,apartment,2,1,1,21.382698,86.345937,2022-03-28 15:23:39
+249,47,29,Bright apartment in Kochi,A bright apartment in kochi with 3 bedroom(s).,52.4,apartment,6,3,2,-0.21205,82.545734,2022-09-20 01:33:51
+250,176,18,Stylish house in Vancouver,A stylish house in vancouver with 2 bedroom(s).,221.64,house,4,2,2,5.719603,-87.500591,2024-11-27 14:20:44
+251,84,22,Sunny apartment in Kyoto,A sunny apartment in kyoto with 1 bedroom(s).,128.14,apartment,2,1,1,21.27781,-49.880792,2023-06-23 07:17:30
+252,54,11,Stylish studio in Berlin,A stylish studio in berlin with 1 bedroom(s).,70.62,studio,2,1,1,30.071263,-19.4764,2024-03-31 08:28:11
+253,61,19,Spacious house in Mexico City,A spacious house in mexico city with 3 bedroom(s).,146.96,house,6,3,2,45.630874,-67.062932,2022-11-03 15:51:00
+254,137,16,Rustic apartment in Austin,A rustic apartment in austin with 1 bedroom(s).,137.28,apartment,2,1,1,38.533294,-38.990771,2022-04-08 12:06:44
+255,116,7,Sunny apartment in Rome,A sunny apartment in rome with 2 bedroom(s).,133.91,apartment,4,2,1,-14.023088,-22.717223,2023-06-12 11:01:26
+256,148,28,Charming apartment in Goa,A charming apartment in goa with 3 bedroom(s).,67.84,apartment,6,3,3,57.937313,-43.155642,2023-10-28 21:32:31
+257,119,15,Spacious condo in San Francisco,A spacious condo in san francisco with 1 bedroom(s).,214.7,condo,2,1,1,46.825765,52.956776,2023-11-22 13:40:39
+258,59,28,Quiet house in Goa,A quiet house in goa with 2 bedroom(s).,75.2,house,4,2,1,-8.312176,-41.333785,2023-07-02 19:41:25
+259,116,15,Rustic apartment in San Francisco,A rustic apartment in san francisco with 2 bedroom(s).,212.54,apartment,4,2,1,-23.268189,110.637198,2022-09-14 23:15:42
+260,43,24,Charming apartment in Phuket,A charming apartment in phuket with 3 bedroom(s).,100.09,apartment,6,3,2,-29.699069,-102.776052,2024-08-27 17:03:01
+261,40,17,Luxury condo in Toronto,A luxury condo in toronto with 1 bedroom(s).,121.09,condo,2,1,1,25.483268,119.077256,2023-09-26 07:15:47
+262,8,21,Modern apartment in Tokyo,A modern apartment in tokyo with 1 bedroom(s).,132.3,apartment,2,1,1,26.354914,112.299581,2023-10-29 15:29:55
+263,46,9,Rustic house in Lisbon,A rustic house in lisbon with 5 bedroom(s).,139.45,house,10,5,4,23.104752,51.679807,2024-06-09 16:40:40
+264,23,30,Charming house in Sydney,A charming house in sydney with 4 bedroom(s).,274.52,house,8,4,3,-9.213181,-8.704972,2022-11-15 09:00:00
+265,137,25,Bright house in Bali,A bright house in bali with 3 bedroom(s).,120.3,house,6,3,3,28.776996,12.821547,2024-09-04 09:00:49
+266,96,10,Rustic house in Amsterdam,A rustic house in amsterdam with 3 bedroom(s).,291.95,house,6,3,3,1.173587,31.349677,2024-03-19 07:10:45
+267,109,13,Sunny condo in New York,A sunny condo in new york with 2 bedroom(s).,210.43,condo,4,2,2,11.661006,95.988949,2023-07-11 09:41:47
+268,47,9,Sunny house in Lisbon,A sunny house in lisbon with 5 bedroom(s).,143.31,house,10,5,5,-11.04047,51.961032,2024-07-16 08:44:39
+269,6,11,Rustic house in Berlin,A rustic house in berlin with 2 bedroom(s).,156.32,house,4,2,2,57.23326,-43.829075,2022-09-14 22:28:46
+270,88,3,Charming apartment in London,A charming apartment in london with 1 bedroom(s).,141.97,apartment,2,1,1,-8.842331,95.854835,2024-01-31 14:44:50
+271,19,3,Stylish apartment in London,A stylish apartment in london with 1 bedroom(s).,145.24,apartment,2,1,1,-21.839626,121.838724,2023-05-28 12:53:00
+272,64,25,Bright apartment in Bali,A bright apartment in bali with 3 bedroom(s).,70.23,apartment,6,3,3,-20.082012,78.53715,2022-07-12 16:42:13
+273,162,22,Modern house in Kyoto,A modern house in kyoto with 4 bedroom(s).,263.8,house,8,4,4,34.472458,28.386585,2022-09-08 08:30:40
+274,29,12,Charming apartment in Munich,A charming apartment in munich with 1 bedroom(s).,143.83,apartment,2,1,1,23.290897,-32.381358,2022-12-09 08:37:07
+275,177,8,Luxury apartment in Florence,A luxury apartment in florence with 1 bedroom(s).,176.74,apartment,2,1,1,28.840654,-78.152176,2022-07-03 07:10:31
+276,16,20,Cozy apartment in Cancun,A cozy apartment in cancun with 2 bedroom(s).,134.08,apartment,4,2,1,24.45749,69.358598,2022-08-08 04:31:14
+277,188,18,Bright apartment in Vancouver,A bright apartment in vancouver with 3 bedroom(s).,150.55,apartment,6,3,3,-37.864717,-18.002387,2022-10-03 08:57:02
+278,49,15,Bright house in San Francisco,A bright house in san francisco with 4 bedroom(s).,319.53,house,8,4,4,14.362054,-32.606164,2024-08-17 08:55:53
+279,116,28,Modern house in Goa,A modern house in goa with 3 bedroom(s).,74.79,house,6,3,2,41.941855,26.233607,2024-07-18 00:49:40
+280,94,24,Luxury house in Phuket,A luxury house in phuket with 3 bedroom(s).,172.41,house,6,3,3,-7.930591,-102.897726,2024-03-04 06:33:43
+281,105,18,Quiet house in Vancouver,A quiet house in vancouver with 3 bedroom(s).,232.39,house,6,3,2,-28.953587,21.264146,2022-05-17 01:53:08
+282,26,2,Charming apartment in Nice,A charming apartment in nice with 1 bedroom(s).,121.29,apartment,2,1,1,17.101218,105.800872,2024-09-30 16:39:44
+283,4,2,Sunny house in Nice,A sunny house in nice with 4 bedroom(s).,210.44,house,8,4,4,25.574936,130.669004,2022-06-13 14:51:40
+284,95,18,Stylish apartment in Vancouver,A stylish apartment in vancouver with 3 bedroom(s).,161.33,apartment,6,3,3,42.364297,-48.229779,2022-03-25 23:04:53
+285,137,7,Charming apartment in Rome,A charming apartment in rome with 3 bedroom(s).,111.37,apartment,6,3,2,-21.053959,22.071846,2023-05-25 18:40:11
+286,92,18,Luxury house in Vancouver,A luxury house in vancouver with 5 bedroom(s).,245.32,house,10,5,4,30.255042,-4.689753,2022-08-02 05:50:11
+287,154,17,Rustic house in Toronto,A rustic house in toronto with 4 bedroom(s).,216.99,house,8,4,3,53.351997,123.670942,2023-10-27 11:26:48
+288,140,27,Luxury villa in Dubai,A luxury villa in dubai with 5 bedroom(s).,652.86,villa,10,5,5,-2.493693,28.564451,2023-06-05 11:28:28
+289,5,1,Luxury studio in Paris,A luxury studio in paris with 1 bedroom(s).,149.08,studio,2,1,1,59.341201,-38.502753,2023-09-08 07:13:54
+290,131,25,Rustic apartment in Bali,A rustic apartment in bali with 3 bedroom(s).,90.09,apartment,6,3,3,-30.571287,4.299848,2022-11-16 04:16:23
+291,24,8,Spacious studio in Florence,A spacious studio in florence with 1 bedroom(s).,95.19,studio,2,1,1,16.906494,-61.291934,2022-06-08 23:20:50
+292,10,16,Spacious house in Austin,A spacious house in austin with 2 bedroom(s).,192.21,house,4,2,1,-32.15226,-104.900869,2023-11-16 11:56:52
+293,192,30,Charming house in Sydney,A charming house in sydney with 2 bedroom(s).,321.68,house,4,2,2,23.38871,50.692278,2022-04-21 09:33:02
+294,40,19,Charming apartment in Mexico City,A charming apartment in mexico city with 1 bedroom(s).,72.92,apartment,2,1,1,27.363524,149.289172,2024-07-01 19:36:32
+295,34,14,Modern apartment in Miami,A modern apartment in miami with 2 bedroom(s).,177.7,apartment,4,2,1,-31.745489,34.288959,2022-04-11 17:25:16
+296,196,17,Modern apartment in Toronto,A modern apartment in toronto with 2 bedroom(s).,138.93,apartment,4,2,2,8.09225,-66.510698,2024-03-20 20:36:12
+297,199,24,Spacious house in Phuket,A spacious house in phuket with 3 bedroom(s).,130.9,house,6,3,2,-7.658836,129.517282,2022-07-03 03:42:26
+298,168,12,Luxury house in Munich,A luxury house in munich with 3 bedroom(s).,186.98,house,6,3,3,36.968129,-74.301079,2023-12-18 19:52:51
+299,52,5,Charming house in Barcelona,A charming house in barcelona with 5 bedroom(s).,177.16,house,10,5,4,-24.400878,76.691423,2022-06-25 03:47:03
+300,4,20,Spacious apartment in Cancun,A spacious apartment in cancun with 1 bedroom(s).,131.0,apartment,2,1,1,29.379523,-89.954942,2024-07-10 15:01:21
+301,193,18,Rustic apartment in Vancouver,A rustic apartment in vancouver with 1 bedroom(s).,117.71,apartment,2,1,1,14.880005,48.221338,2022-10-17 22:44:42
+302,44,19,Spacious apartment in Mexico City,A spacious apartment in mexico city with 3 bedroom(s).,79.85,apartment,6,3,3,-11.598646,93.080894,2023-07-10 01:29:41
+303,28,3,Quiet studio in London,A quiet studio in london with 1 bedroom(s).,140.44,studio,2,1,1,-10.750442,118.518625,2024-03-02 07:24:32
+304,137,4,Luxury loft in Edinburgh,A luxury loft in edinburgh with 2 bedroom(s).,179.19,loft,4,2,2,-21.358261,15.175722,2024-07-26 17:59:45
+305,101,8,Bright apartment in Florence,A bright apartment in florence with 3 bedroom(s).,134.02,apartment,6,3,3,-38.162777,64.764066,2023-12-29 20:19:15
+306,100,17,Spacious loft in Toronto,A spacious loft in toronto with 2 bedroom(s).,205.1,loft,4,2,2,54.41367,136.261433,2023-04-07 04:21:57
+307,174,5,Rustic apartment in Barcelona,A rustic apartment in barcelona with 1 bedroom(s).,148.96,apartment,2,1,1,1.733334,34.682609,2024-05-23 09:58:38
+308,149,18,Modern apartment in Vancouver,A modern apartment in vancouver with 1 bedroom(s).,117.88,apartment,2,1,1,46.258766,-36.570433,2024-12-08 04:27:58
+309,137,5,Rustic loft in Barcelona,A rustic loft in barcelona with 1 bedroom(s).,181.03,loft,2,1,1,-21.586478,106.671078,2022-10-26 23:01:48
+310,39,14,Spacious apartment in Miami,A spacious apartment in miami with 2 bedroom(s).,144.22,apartment,4,2,2,-29.322857,-70.118446,2023-07-01 19:36:39
+311,21,8,Quiet apartment in Florence,A quiet apartment in florence with 1 bedroom(s).,158.63,apartment,2,1,1,-26.591337,108.457324,2024-08-18 22:41:23
+312,50,13,Modern apartment in New York,A modern apartment in new york with 2 bedroom(s).,200.62,apartment,4,2,2,-36.777045,86.425491,2022-01-31 08:26:14
+313,158,7,Bright condo in Rome,A bright condo in rome with 1 bedroom(s).,129.44,condo,2,1,1,28.78627,114.029224,2023-05-21 13:25:49
+314,157,24,Stylish apartment in Phuket,A stylish apartment in phuket with 2 bedroom(s).,98.92,apartment,4,2,2,12.064909,1.93459,2022-03-28 07:33:34
+315,196,24,Rustic apartment in Phuket,A rustic apartment in phuket with 1 bedroom(s).,92.48,apartment,2,1,1,-21.014966,-1.320454,2023-09-16 09:29:10
+316,119,20,Modern house in Cancun,A modern house in cancun with 2 bedroom(s).,199.89,house,4,2,1,-30.955919,15.177603,2023-01-04 18:57:44
+317,46,13,Cozy house in New York,A cozy house in new york with 5 bedroom(s).,306.36,house,10,5,4,19.031548,72.411286,2023-02-18 14:05:16
+318,24,21,Sunny apartment in Tokyo,A sunny apartment in tokyo with 3 bedroom(s).,178.4,apartment,6,3,3,30.622671,51.199553,2022-06-24 16:45:24
+319,141,17,Stylish condo in Toronto,A stylish condo in toronto with 3 bedroom(s).,175.52,condo,6,3,2,-35.609392,-73.861055,2023-11-18 18:55:42
+320,108,6,Cozy studio in Madrid,A cozy studio in madrid with 1 bedroom(s).,70.44,studio,2,1,1,-9.048169,87.530214,2024-07-02 09:40:11
+321,4,5,Spacious apartment in Barcelona,A spacious apartment in barcelona with 1 bedroom(s).,105.81,apartment,2,1,1,9.762761,14.633405,2022-01-12 19:56:31
+322,114,19,Stylish apartment in Mexico City,A stylish apartment in mexico city with 3 bedroom(s).,78.08,apartment,6,3,3,20.121657,-118.225284,2023-07-24 19:40:35
+323,168,7,Cozy cabin in Rome,A cozy cabin in rome with 1 bedroom(s).,148.37,cabin,2,1,1,-36.327895,110.533908,2023-09-04 10:58:05
+324,157,14,Spacious apartment in Miami,A spacious apartment in miami with 1 bedroom(s).,134.38,apartment,2,1,1,56.629326,82.320398,2024-01-08 01:05:49
+325,141,12,Stylish apartment in Munich,A stylish apartment in munich with 2 bedroom(s).,141.46,apartment,4,2,2,-10.716729,-83.672637,2023-07-17 10:33:26
+326,147,23,Sunny house in Bangkok,A sunny house in bangkok with 3 bedroom(s).,116.15,house,6,3,3,8.366298,65.936655,2023-08-12 13:38:54
+327,34,17,Quiet apartment in Toronto,A quiet apartment in toronto with 3 bedroom(s).,150.98,apartment,6,3,2,11.97058,50.601554,2024-10-05 05:56:39
+328,120,10,Cozy apartment in Amsterdam,A cozy apartment in amsterdam with 1 bedroom(s).,123.31,apartment,2,1,1,33.746838,-64.020674,2024-04-29 13:02:21
+329,177,26,Charming apartment in Singapore,A charming apartment in singapore with 3 bedroom(s).,147.77,apartment,6,3,2,-14.558248,-101.684263,2023-09-07 16:35:20
+330,186,4,Stylish condo in Edinburgh,A stylish condo in edinburgh with 3 bedroom(s).,135.85,condo,6,3,3,43.204277,-67.615793,2023-11-24 21:30:58
+331,138,2,Bright house in Nice,A bright house in nice with 3 bedroom(s).,237.9,house,6,3,2,6.247008,99.824988,2022-04-25 16:19:36
+332,148,11,Charming condo in Berlin,A charming condo in berlin with 3 bedroom(s).,135.35,condo,6,3,2,39.953533,119.767957,2023-12-26 02:09:17
+333,147,11,Modern cabin in Berlin,A modern cabin in berlin with 2 bedroom(s).,151.47,cabin,4,2,1,-21.262109,-88.451948,2023-09-24 22:54:20
+334,96,9,Charming condo in Lisbon,A charming condo in lisbon with 2 bedroom(s).,98.17,condo,4,2,1,42.945747,-38.29025,2024-12-11 09:11:07
+335,130,2,Bright apartment in Nice,A bright apartment in nice with 1 bedroom(s).,173.17,apartment,2,1,1,39.902528,124.338066,2022-11-12 06:21:59
+336,197,28,Modern house in Goa,A modern house in goa with 4 bedroom(s).,103.41,house,8,4,4,42.213852,133.266439,2022-09-29 06:46:02
+337,176,23,Cozy house in Bangkok,A cozy house in bangkok with 2 bedroom(s).,86.6,house,4,2,2,-6.671025,120.080187,2022-07-31 16:49:42
+338,83,1,Charming condo in Paris,A charming condo in paris with 3 bedroom(s).,222.56,condo,6,3,3,-20.745436,-45.304625,2023-10-16 14:42:07
+339,144,6,Luxury apartment in Madrid,A luxury apartment in madrid with 2 bedroom(s).,93.67,apartment,4,2,2,-19.342262,-25.414103,2023-10-15 08:09:45
+340,157,19,Spacious cabin in Mexico City,A spacious cabin in mexico city with 1 bedroom(s).,85.95,cabin,2,1,1,14.05771,-106.30393,2022-03-01 15:57:43
+341,46,13,Stylish apartment in New York,A stylish apartment in new york with 1 bedroom(s).,166.07,apartment,2,1,1,21.631534,-35.641024,2023-02-10 22:48:42
+342,179,3,Sunny cabin in London,A sunny cabin in london with 2 bedroom(s).,236.43,cabin,4,2,1,-30.2737,-36.194245,2024-08-11 15:14:14
+343,101,29,Quiet apartment in Kochi,A quiet apartment in kochi with 3 bedroom(s).,40.31,apartment,6,3,3,29.961462,59.598767,2023-10-28 14:31:01
+344,73,4,Modern apartment in Edinburgh,A modern apartment in edinburgh with 2 bedroom(s).,122.86,apartment,4,2,1,20.444023,-85.603619,2022-07-30 12:52:45
+345,137,11,Spacious condo in Berlin,A spacious condo in berlin with 3 bedroom(s).,141.99,condo,6,3,2,0.081647,-8.370685,2023-05-15 17:10:30
+346,111,11,Luxury apartment in Berlin,A luxury apartment in berlin with 1 bedroom(s).,128.29,apartment,2,1,1,16.721119,-27.605775,2023-04-29 05:42:42
+347,30,30,Bright apartment in Sydney,A bright apartment in sydney with 3 bedroom(s).,174.63,apartment,6,3,2,-7.462191,-93.633445,2024-06-30 05:19:25
+348,84,4,Stylish apartment in Edinburgh,A stylish apartment in edinburgh with 3 bedroom(s).,141.13,apartment,6,3,2,24.498912,-103.3998,2023-03-22 04:56:37
+349,116,21,Modern studio in Tokyo,A modern studio in tokyo with 1 bedroom(s).,127.76,studio,2,1,1,-1.001734,36.041482,2023-02-05 06:43:56
+350,184,19,Stylish apartment in Mexico City,A stylish apartment in mexico city with 3 bedroom(s).,72.15,apartment,6,3,2,59.028926,37.336284,2024-11-11 12:54:08
+351,1,2,Cozy cabin in Nice,A cozy cabin in nice with 2 bedroom(s).,219.4,cabin,4,2,1,-29.030168,-43.803503,2022-03-05 07:27:44
+352,98,21,Stylish house in Tokyo,A stylish house in tokyo with 4 bedroom(s).,282.32,house,8,4,3,14.511879,58.871641,2024-08-30 04:12:35
+353,74,30,Modern apartment in Sydney,A modern apartment in sydney with 2 bedroom(s).,194.37,apartment,4,2,2,-26.572255,-100.628581,2022-02-02 04:46:56
+354,117,14,Stylish house in Miami,A stylish house in miami with 3 bedroom(s).,211.2,house,6,3,2,22.324848,2.686477,2024-05-18 17:52:28
+355,148,8,Cozy apartment in Florence,A cozy apartment in florence with 1 bedroom(s).,141.73,apartment,2,1,1,44.680389,-56.077509,2024-10-24 08:26:59
+356,124,12,Luxury house in Munich,A luxury house in munich with 2 bedroom(s).,245.56,house,4,2,1,-28.683563,10.013885,2022-06-13 04:46:46
+357,134,28,Sunny house in Goa,A sunny house in goa with 4 bedroom(s).,90.83,house,8,4,4,-15.47687,50.278969,2022-06-09 21:40:34
+358,137,10,Quiet condo in Amsterdam,A quiet condo in amsterdam with 3 bedroom(s).,149.92,condo,6,3,3,6.886881,18.41904,2024-08-18 18:46:21
+359,178,26,Cozy house in Singapore,A cozy house in singapore with 4 bedroom(s).,251.14,house,8,4,3,32.697171,32.200694,2022-05-06 20:30:37
+360,7,2,Luxury apartment in Nice,A luxury apartment in nice with 3 bedroom(s).,178.13,apartment,6,3,2,8.476019,-85.758239,2022-06-07 08:16:08
+361,155,9,Sunny villa in Lisbon,A sunny villa in lisbon with 5 bedroom(s).,275.79,villa,10,5,5,51.013149,79.521153,2024-07-03 11:51:11
+362,9,23,Rustic apartment in Bangkok,A rustic apartment in bangkok with 1 bedroom(s).,67.2,apartment,2,1,1,58.407166,141.183321,2022-11-12 15:48:26
+363,54,8,Modern condo in Florence,A modern condo in florence with 3 bedroom(s).,168.68,condo,6,3,2,-34.567421,-48.613216,2022-08-26 01:10:29
+364,60,10,Rustic apartment in Amsterdam,A rustic apartment in amsterdam with 2 bedroom(s).,174.91,apartment,4,2,1,28.350996,-14.680969,2023-06-22 04:33:55
+365,136,10,Quiet house in Amsterdam,A quiet house in amsterdam with 5 bedroom(s).,244.92,house,10,5,5,-30.263568,23.449205,2023-12-26 13:39:58
+366,66,9,Sunny villa in Lisbon,A sunny villa in lisbon with 5 bedroom(s).,315.2,villa,10,5,4,6.110859,62.328602,2023-05-11 23:43:37
+367,81,17,Modern condo in Toronto,A modern condo in toronto with 2 bedroom(s).,158.01,condo,4,2,2,27.280186,104.556165,2022-01-25 13:06:33
+368,65,15,Spacious apartment in San Francisco,A spacious apartment in san francisco with 2 bedroom(s).,168.06,apartment,4,2,2,-36.595824,47.23725,2022-04-27 19:42:57
+369,23,20,Sunny cabin in Cancun,A sunny cabin in cancun with 3 bedroom(s).,119.67,cabin,6,3,3,-2.404156,86.241597,2023-01-14 03:44:11
+370,71,15,Bright apartment in San Francisco,A bright apartment in san francisco with 3 bedroom(s).,228.38,apartment,6,3,2,29.222149,60.246385,2023-10-25 08:10:49
+371,16,25,Quiet apartment in Bali,A quiet apartment in bali with 1 bedroom(s).,74.86,apartment,2,1,1,55.56057,-48.54049,2024-06-21 02:31:59
+372,37,13,Sunny apartment in New York,A sunny apartment in new york with 1 bedroom(s).,215.91,apartment,2,1,1,-18.16135,53.701305,2024-06-23 22:16:06
+373,5,3,Bright apartment in London,A bright apartment in london with 3 bedroom(s).,198.42,apartment,6,3,2,-25.114572,52.890523,2022-03-19 21:24:17
+374,182,11,Rustic apartment in Berlin,A rustic apartment in berlin with 2 bedroom(s).,116.44,apartment,4,2,1,7.813943,-10.943557,2022-05-24 17:14:00
+375,92,23,Rustic apartment in Bangkok,A rustic apartment in bangkok with 2 bedroom(s).,56.4,apartment,4,2,1,28.183574,-11.834004,2022-07-05 11:34:54
+376,166,3,Spacious loft in London,A spacious loft in london with 2 bedroom(s).,292.4,loft,4,2,2,-22.33817,-109.380581,2024-02-26 21:12:19
+377,125,29,Quiet condo in Kochi,A quiet condo in kochi with 1 bedroom(s).,56.36,condo,2,1,1,48.521415,-1.744388,2023-01-24 04:02:12
+378,139,19,Sunny apartment in Mexico City,A sunny apartment in mexico city with 1 bedroom(s).,78.55,apartment,2,1,1,9.968415,140.537538,2024-07-09 00:02:21
+379,55,26,Sunny apartment in Singapore,A sunny apartment in singapore with 3 bedroom(s).,135.18,apartment,6,3,2,54.008979,114.954008,2022-11-02 23:37:14
+380,121,2,Cozy studio in Nice,A cozy studio in nice with 1 bedroom(s).,106.08,studio,2,1,1,-15.731745,55.172333,2022-01-30 05:40:03
+381,152,27,Modern studio in Dubai,A modern studio in dubai with 1 bedroom(s).,128.68,studio,2,1,1,41.780018,-91.290576,2024-10-15 19:51:39
+382,84,26,Stylish apartment in Singapore,A stylish apartment in singapore with 1 bedroom(s).,163.65,apartment,2,1,1,57.585327,35.511093,2022-10-09 10:53:50
+383,31,2,Sunny apartment in Nice,A sunny apartment in nice with 3 bedroom(s).,125.56,apartment,6,3,2,-25.87632,-7.908332,2024-01-28 17:10:28
+384,97,19,Luxury apartment in Mexico City,A luxury apartment in mexico city with 1 bedroom(s).,66.22,apartment,2,1,1,-38.436967,11.481218,2022-01-14 00:11:59
+385,178,21,Stylish apartment in Tokyo,A stylish apartment in tokyo with 3 bedroom(s).,184.66,apartment,6,3,2,29.235833,-64.336741,2023-07-09 16:28:26
+386,47,6,Luxury apartment in Madrid,A luxury apartment in madrid with 3 bedroom(s).,122.24,apartment,6,3,2,21.204982,-96.234278,2023-09-09 11:26:00
+387,159,7,Sunny house in Rome,A sunny house in rome with 2 bedroom(s).,268.7,house,4,2,1,46.273106,146.431173,2024-11-05 07:29:49
+388,39,7,Sunny villa in Rome,A sunny villa in rome with 5 bedroom(s).,375.69,villa,10,5,4,9.751484,-76.86491,2022-03-30 01:41:23
+389,12,14,Bright apartment in Miami,A bright apartment in miami with 2 bedroom(s).,146.37,apartment,4,2,2,34.041688,129.712563,2022-12-27 05:50:01
+390,152,4,Bright house in Edinburgh,A bright house in edinburgh with 2 bedroom(s).,238.15,house,4,2,1,1.906627,81.713423,2023-10-30 07:49:07
+391,97,4,Charming apartment in Edinburgh,A charming apartment in edinburgh with 1 bedroom(s).,136.97,apartment,2,1,1,-32.647028,37.97491,2022-04-22 13:09:13
+392,118,15,Modern studio in San Francisco,A modern studio in san francisco with 1 bedroom(s).,132.5,studio,2,1,1,23.202112,143.400091,2023-02-19 10:08:02
+393,118,2,Bright condo in Nice,A bright condo in nice with 2 bedroom(s).,145.58,condo,4,2,1,-22.879868,-27.234478,2023-08-28 19:10:50
+394,59,20,Rustic condo in Cancun,A rustic condo in cancun with 1 bedroom(s).,137.82,condo,2,1,1,1.169614,20.877571,2023-03-20 18:30:53
+395,64,1,Charming house in Paris,A charming house in paris with 5 bedroom(s).,305.45,house,10,5,4,3.424872,-59.950215,2022-11-02 18:57:00
+396,9,2,Rustic house in Nice,A rustic house in nice with 2 bedroom(s).,291.58,house,4,2,1,13.112173,9.402722,2022-07-20 14:31:15
+397,56,25,Stylish apartment in Bali,A stylish apartment in bali with 1 bedroom(s).,85.62,apartment,2,1,1,-4.159432,-55.453153,2022-07-05 00:30:42
+398,7,23,Luxury apartment in Bangkok,A luxury apartment in bangkok with 2 bedroom(s).,78.28,apartment,4,2,1,6.376064,-82.571543,2024-04-10 05:50:55
+399,99,15,Sunny apartment in San Francisco,A sunny apartment in san francisco with 3 bedroom(s).,202.9,apartment,6,3,2,13.092033,-39.920705,2023-07-07 22:39:34
+400,189,7,Quiet house in Rome,A quiet house in rome with 2 bedroom(s).,233.11,house,4,2,2,11.473648,125.701111,2024-01-16 01:07:24
+401,166,20,Modern apartment in Cancun,A modern apartment in cancun with 1 bedroom(s).,106.1,apartment,2,1,1,16.075821,88.865387,2022-10-11 10:15:34
+402,180,16,Luxury apartment in Austin,A luxury apartment in austin with 3 bedroom(s).,134.49,apartment,6,3,3,35.31735,85.439194,2023-10-19 11:57:17
+403,89,14,Quiet house in Miami,A quiet house in miami with 4 bedroom(s).,207.78,house,8,4,3,8.622691,22.204302,2022-09-09 15:45:34
+404,173,18,Quiet villa in Vancouver,A quiet villa in vancouver with 5 bedroom(s).,457.55,villa,10,5,5,-21.164642,118.674325,2022-06-28 02:25:57
+405,179,3,Sunny apartment in London,A sunny apartment in london with 1 bedroom(s).,153.85,apartment,2,1,1,9.632873,116.248148,2024-12-02 20:01:18
+406,114,22,Stylish house in Kyoto,A stylish house in kyoto with 3 bedroom(s).,218.86,house,6,3,3,-10.84832,-103.003633,2023-04-21 16:41:21
+407,141,11,Rustic house in Berlin,A rustic house in berlin with 4 bedroom(s).,183.38,house,8,4,3,5.800709,33.157948,2023-09-20 05:50:16
+408,38,12,Cozy apartment in Munich,A cozy apartment in munich with 2 bedroom(s).,138.71,apartment,4,2,1,-11.561797,138.177741,2022-11-26 22:34:18
+409,42,6,Modern apartment in Madrid,A modern apartment in madrid with 3 bedroom(s).,122.3,apartment,6,3,3,-28.308267,148.31872,2022-09-17 14:16:23
+410,89,18,Quiet apartment in Vancouver,A quiet apartment in vancouver with 3 bedroom(s).,107.66,apartment,6,3,3,-2.708506,25.763981,2022-11-29 17:19:07
+411,82,13,Bright studio in New York,A bright studio in new york with 1 bedroom(s).,165.0,studio,2,1,1,-39.570569,79.393645,2024-11-05 10:41:45
+412,171,29,Luxury apartment in Kochi,A luxury apartment in kochi with 2 bedroom(s).,54.4,apartment,4,2,2,39.957617,76.706823,2024-06-24 10:44:07
+413,30,29,Rustic condo in Kochi,A rustic condo in kochi with 1 bedroom(s).,44.86,condo,2,1,1,-37.520441,46.730938,2023-03-28 14:22:05
+414,57,20,Rustic apartment in Cancun,A rustic apartment in cancun with 3 bedroom(s).,97.66,apartment,6,3,2,-20.428433,-97.430821,2024-07-01 21:42:05
+415,155,13,Luxury loft in New York,A luxury loft in new york with 1 bedroom(s).,293.96,loft,2,1,1,50.844695,-22.512485,2022-10-30 22:54:27
+416,79,12,Quiet apartment in Munich,A quiet apartment in munich with 1 bedroom(s).,112.3,apartment,2,1,1,47.430174,-96.34837,2024-06-28 23:26:51
+417,36,6,Stylish house in Madrid,A stylish house in madrid with 5 bedroom(s).,203.02,house,10,5,5,-25.636072,-38.127593,2024-12-11 10:04:59
+418,164,25,Stylish loft in Bali,A stylish loft in bali with 2 bedroom(s).,94.06,loft,4,2,1,1.451401,30.069738,2022-10-08 06:11:53
+419,150,18,Spacious apartment in Vancouver,A spacious apartment in vancouver with 2 bedroom(s).,108.11,apartment,4,2,1,9.410049,79.761126,2023-04-05 00:50:00
+420,32,10,Bright apartment in Amsterdam,A bright apartment in amsterdam with 3 bedroom(s).,181.01,apartment,6,3,2,1.715677,12.809356,2023-05-17 00:07:48
+421,124,3,Luxury apartment in London,A luxury apartment in london with 3 bedroom(s).,199.85,apartment,6,3,2,46.834592,49.558933,2024-09-01 22:52:07
+422,42,24,Spacious apartment in Phuket,A spacious apartment in phuket with 3 bedroom(s).,71.09,apartment,6,3,3,-25.386288,4.481871,2022-10-05 11:10:03
+423,13,14,Quiet apartment in Miami,A quiet apartment in miami with 3 bedroom(s).,186.41,apartment,6,3,2,-10.83359,52.515562,2022-06-07 16:12:49
+424,140,25,Modern villa in Bali,A modern villa in bali with 3 bedroom(s).,284.47,villa,6,3,2,47.244313,103.241939,2023-09-09 08:43:44
+425,4,4,Modern condo in Edinburgh,A modern condo in edinburgh with 3 bedroom(s).,151.73,condo,6,3,3,11.817075,-19.286167,2024-09-20 13:21:58
+426,49,4,Charming studio in Edinburgh,A charming studio in edinburgh with 1 bedroom(s).,76.52,studio,2,1,1,1.734626,127.328413,2022-08-27 04:59:01
+427,153,10,Bright house in Amsterdam,A bright house in amsterdam with 4 bedroom(s).,217.36,house,8,4,3,-22.779284,-37.73525,2022-08-31 07:08:54
+428,34,23,Charming condo in Bangkok,A charming condo in bangkok with 1 bedroom(s).,73.19,condo,2,1,1,2.480507,86.016396,2022-08-17 02:01:49
+429,169,14,Cozy house in Miami,A cozy house in miami with 2 bedroom(s).,223.87,house,4,2,2,6.908234,125.302911,2022-03-30 02:19:42
+430,151,4,Charming apartment in Edinburgh,A charming apartment in edinburgh with 1 bedroom(s).,146.9,apartment,2,1,1,-21.521818,-25.08591,2022-07-05 04:54:47
+431,200,19,Rustic studio in Mexico City,A rustic studio in mexico city with 1 bedroom(s).,53.68,studio,2,1,1,10.490923,-101.548999,2022-01-29 16:13:45
+432,2,10,Rustic apartment in Amsterdam,A rustic apartment in amsterdam with 1 bedroom(s).,185.69,apartment,2,1,1,52.42321,128.528838,2024-08-30 11:44:37
+433,98,22,Quiet apartment in Kyoto,A quiet apartment in kyoto with 1 bedroom(s).,116.34,apartment,2,1,1,-18.5726,-58.560363,2022-08-20 10:07:29
+434,143,5,Spacious apartment in Barcelona,A spacious apartment in barcelona with 2 bedroom(s).,150.88,apartment,4,2,2,-31.775205,13.302456,2024-02-28 09:29:38
+435,75,22,Stylish condo in Kyoto,A stylish condo in kyoto with 2 bedroom(s).,140.66,condo,4,2,1,-21.121501,-101.205528,2024-09-01 21:23:11
+436,113,22,Stylish apartment in Kyoto,A stylish apartment in kyoto with 2 bedroom(s).,145.52,apartment,4,2,2,-28.078216,-13.400905,2022-07-28 23:59:57
+437,52,3,Quiet loft in London,A quiet loft in london with 2 bedroom(s).,317.14,loft,4,2,1,-27.723783,106.289465,2024-10-19 08:48:45
+438,92,19,Stylish condo in Mexico City,A stylish condo in mexico city with 2 bedroom(s).,103.77,condo,4,2,1,26.667701,136.537481,2024-09-19 16:17:09
+439,60,4,Bright condo in Edinburgh,A bright condo in edinburgh with 1 bedroom(s).,130.53,condo,2,1,1,-37.027648,79.205556,2022-05-20 15:43:01
+440,160,13,Luxury loft in New York,A luxury loft in new york with 2 bedroom(s).,250.19,loft,4,2,2,36.017144,58.491763,2024-11-30 15:50:29
+441,139,22,Spacious apartment in Kyoto,A spacious apartment in kyoto with 2 bedroom(s).,134.72,apartment,4,2,1,40.94816,25.942826,2022-02-06 01:27:56
+442,114,13,Stylish studio in New York,A stylish studio in new york with 1 bedroom(s).,135.58,studio,2,1,1,-36.401888,-72.245323,2023-09-13 22:10:31
+443,146,10,Sunny house in Amsterdam,A sunny house in amsterdam with 5 bedroom(s).,256.88,house,10,5,4,26.007859,65.051025,2024-08-20 15:35:54
+444,97,2,Luxury apartment in Nice,A luxury apartment in nice with 2 bedroom(s).,131.35,apartment,4,2,1,36.647077,-43.201864,2022-05-06 00:37:02
+445,7,12,Luxury apartment in Munich,A luxury apartment in munich with 2 bedroom(s).,140.88,apartment,4,2,1,-1.942662,-4.399989,2024-01-02 13:22:03
+446,22,8,Luxury villa in Florence,A luxury villa in florence with 4 bedroom(s).,539.27,villa,8,4,4,46.893996,-89.09275,2022-12-14 00:34:20
+447,69,22,Stylish apartment in Kyoto,A stylish apartment in kyoto with 2 bedroom(s).,139.34,apartment,4,2,2,29.595848,38.757093,2023-10-11 12:36:24
+448,87,4,Charming apartment in Edinburgh,A charming apartment in edinburgh with 2 bedroom(s).,102.25,apartment,4,2,1,10.276852,86.524053,2023-11-27 05:39:19
+449,138,14,Sunny apartment in Miami,A sunny apartment in miami with 1 bedroom(s).,157.64,apartment,2,1,1,-11.264444,-107.166532,2024-04-03 07:39:47
+450,18,23,Spacious studio in Bangkok,A spacious studio in bangkok with 1 bedroom(s).,51.18,studio,2,1,1,2.710589,-26.224548,2022-06-07 20:52:19
+451,52,10,Quiet house in Amsterdam,A quiet house in amsterdam with 5 bedroom(s).,276.84,house,10,5,4,0.230096,48.740247,2024-07-17 21:48:35
+452,148,1,Modern apartment in Paris,A modern apartment in paris with 3 bedroom(s).,184.22,apartment,6,3,2,-18.704719,139.77161,2024-08-15 08:59:40
+453,134,20,Cozy house in Cancun,A cozy house in cancun with 5 bedroom(s).,219.71,house,10,5,5,-3.572533,-80.109204,2022-11-05 23:43:48
+454,163,14,Sunny apartment in Miami,A sunny apartment in miami with 2 bedroom(s).,145.28,apartment,4,2,2,44.596698,-47.927615,2023-08-11 20:10:16
+455,50,8,Modern condo in Florence,A modern condo in florence with 2 bedroom(s).,153.34,condo,4,2,2,-15.441339,103.351783,2024-08-08 15:35:27
+456,35,29,Spacious house in Kochi,A spacious house in kochi with 2 bedroom(s).,64.14,house,4,2,2,-14.160315,96.955309,2022-12-27 20:54:02
+457,81,16,Sunny loft in Austin,A sunny loft in austin with 1 bedroom(s).,131.98,loft,2,1,1,46.717178,123.155219,2024-04-13 11:42:42
+458,189,13,Luxury studio in New York,A luxury studio in new york with 1 bedroom(s).,130.5,studio,2,1,1,12.195756,103.825027,2024-12-11 08:31:56
+459,85,20,Quiet apartment in Cancun,A quiet apartment in cancun with 1 bedroom(s).,126.27,apartment,2,1,1,40.584161,80.868923,2024-05-16 06:09:06
+460,15,9,Luxury apartment in Lisbon,A luxury apartment in lisbon with 2 bedroom(s).,97.39,apartment,4,2,1,13.346997,68.896787,2022-08-20 10:34:27
+461,93,8,Modern house in Florence,A modern house in florence with 4 bedroom(s).,279.8,house,8,4,3,31.567123,101.768649,2022-02-13 20:57:38
+462,177,24,Cozy apartment in Phuket,A cozy apartment in phuket with 3 bedroom(s).,102.04,apartment,6,3,3,-14.70171,-16.133643,2024-01-14 21:07:34
+463,66,28,Stylish studio in Goa,A stylish studio in goa with 1 bedroom(s).,38.99,studio,2,1,1,-30.974967,102.131086,2023-04-28 09:13:55
+464,9,30,Stylish studio in Sydney,A stylish studio in sydney with 1 bedroom(s).,130.09,studio,2,1,1,46.644459,102.263401,2024-10-03 15:47:26
+465,42,11,Sunny studio in Berlin,A sunny studio in berlin with 1 bedroom(s).,95.56,studio,2,1,1,10.633451,-24.998786,2023-11-01 14:44:01
+466,165,21,Bright condo in Tokyo,A bright condo in tokyo with 3 bedroom(s).,160.65,condo,6,3,3,-39.69242,-65.979664,2023-09-18 10:36:05
+467,153,8,Modern apartment in Florence,A modern apartment in florence with 3 bedroom(s).,160.32,apartment,6,3,2,39.264229,-33.762235,2024-09-06 23:08:16
+468,22,19,Charming apartment in Mexico City,A charming apartment in mexico city with 2 bedroom(s).,89.3,apartment,4,2,1,-3.240044,-13.756571,2024-02-12 18:14:01
+469,51,30,Bright studio in Sydney,A bright studio in sydney with 1 bedroom(s).,144.97,studio,2,1,1,30.126115,-74.435892,2024-04-01 19:27:38
+470,31,3,Luxury apartment in London,A luxury apartment in london with 2 bedroom(s).,154.27,apartment,4,2,2,31.858342,-2.507141,2024-07-18 21:31:07
+471,74,7,Spacious apartment in Rome,A spacious apartment in rome with 1 bedroom(s).,161.8,apartment,2,1,1,-1.792648,-3.546681,2023-02-28 19:13:52
+472,38,22,Stylish apartment in Kyoto,A stylish apartment in kyoto with 1 bedroom(s).,130.45,apartment,2,1,1,-10.980704,-49.314145,2024-07-12 07:23:37
+473,83,15,Modern condo in San Francisco,A modern condo in san francisco with 1 bedroom(s).,177.83,condo,2,1,1,28.685245,72.600706,2024-05-16 23:38:16
+474,121,18,Charming apartment in Vancouver,A charming apartment in vancouver with 1 bedroom(s).,108.7,apartment,2,1,1,59.673944,133.616924,2022-04-04 00:16:32
+475,144,10,Modern villa in Amsterdam,A modern villa in amsterdam with 6 bedroom(s).,586.3,villa,12,6,6,18.048691,-49.721254,2024-10-28 15:59:21
+476,111,5,Rustic studio in Barcelona,A rustic studio in barcelona with 1 bedroom(s).,90.51,studio,2,1,1,-13.959399,-35.417206,2022-09-19 15:55:53
+477,157,12,Spacious apartment in Munich,A spacious apartment in munich with 2 bedroom(s).,112.21,apartment,4,2,1,11.697269,-2.34065,2022-12-04 10:47:31
+478,14,5,Bright condo in Barcelona,A bright condo in barcelona with 3 bedroom(s).,184.68,condo,6,3,3,-25.137919,-57.937653,2022-03-15 15:16:10
+479,11,14,Bright condo in Miami,A bright condo in miami with 1 bedroom(s).,227.11,condo,2,1,1,-4.347988,71.437868,2024-09-20 14:31:07
+480,53,28,Sunny cabin in Goa,A sunny cabin in goa with 1 bedroom(s).,59.9,cabin,2,1,1,-21.934504,-74.56035,2024-11-07 08:36:57
+481,47,7,Luxury villa in Rome,A luxury villa in rome with 3 bedroom(s).,472.74,villa,6,3,2,52.04132,-53.537492,2024-10-17 21:06:56
+482,101,10,Sunny apartment in Amsterdam,A sunny apartment in amsterdam with 3 bedroom(s).,191.21,apartment,6,3,2,19.03385,136.82936,2023-10-25 04:01:05
+483,153,23,Spacious house in Bangkok,A spacious house in bangkok with 5 bedroom(s).,108.47,house,10,5,5,-7.057308,-108.16131,2024-07-16 10:46:46
+484,165,26,Cozy studio in Singapore,A cozy studio in singapore with 1 bedroom(s).,107.41,studio,2,1,1,-7.682915,-105.005544,2022-05-25 17:38:24
+485,23,9,Stylish apartment in Lisbon,A stylish apartment in lisbon with 1 bedroom(s).,89.9,apartment,2,1,1,45.234583,-76.006015,2024-04-04 09:41:48
+486,189,5,Stylish studio in Barcelona,A stylish studio in barcelona with 1 bedroom(s).,89.7,studio,2,1,1,50.373427,42.948674,2024-01-06 21:06:53
+487,122,7,Stylish apartment in Rome,A stylish apartment in rome with 2 bedroom(s).,132.06,apartment,4,2,1,16.305708,-5.770943,2024-05-15 11:39:11
+488,119,14,Quiet house in Miami,A quiet house in miami with 2 bedroom(s).,206.19,house,4,2,2,24.761062,72.68158,2024-10-11 16:40:41
+489,77,10,Bright house in Amsterdam,A bright house in amsterdam with 5 bedroom(s).,251.2,house,10,5,5,58.418623,64.764763,2023-09-08 07:33:27
+490,132,2,Cozy apartment in Nice,A cozy apartment in nice with 3 bedroom(s).,119.32,apartment,6,3,3,11.065158,-8.484761,2024-08-09 21:46:36
+491,5,12,Rustic cabin in Munich,A rustic cabin in munich with 2 bedroom(s).,163.78,cabin,4,2,2,34.051617,4.977315,2023-01-09 12:02:05
+492,194,23,Bright house in Bangkok,A bright house in bangkok with 4 bedroom(s).,101.66,house,8,4,3,22.381039,-48.429915,2023-01-19 06:11:05
+493,112,20,Sunny condo in Cancun,A sunny condo in cancun with 2 bedroom(s).,154.99,condo,4,2,2,-39.415293,-88.49687,2022-12-18 20:30:29
+494,186,28,Luxury condo in Goa,A luxury condo in goa with 3 bedroom(s).,80.25,condo,6,3,2,-9.720002,99.545769,2024-01-09 22:43:44
+495,4,26,Modern villa in Singapore,A modern villa in singapore with 5 bedroom(s).,478.48,villa,10,5,5,-28.80875,-115.710983,2023-01-21 00:13:30
+496,49,21,Rustic villa in Tokyo,A rustic villa in tokyo with 4 bedroom(s).,529.93,villa,8,4,4,-9.908213,5.1249,2024-08-28 13:01:07
+497,121,5,Bright apartment in Barcelona,A bright apartment in barcelona with 3 bedroom(s).,147.33,apartment,6,3,3,45.979645,38.011093,2023-02-17 09:36:53
+498,107,2,Stylish cabin in Nice,A stylish cabin in nice with 2 bedroom(s).,146.24,cabin,4,2,1,33.707831,40.876679,2023-08-19 01:31:25
+499,136,19,Cozy house in Mexico City,A cozy house in mexico city with 5 bedroom(s).,113.95,house,10,5,5,2.200455,-34.720459,2022-05-11 08:57:41
+500,115,16,Quiet house in Austin,A quiet house in austin with 2 bedroom(s).,184.08,house,4,2,1,-37.919308,-42.237089,2023-01-29 15:22:28
+501,155,8,Quiet apartment in Florence,A quiet apartment in florence with 3 bedroom(s).,172.9,apartment,6,3,2,-26.884143,-40.783609,2024-03-10 13:53:43
+502,160,12,Modern villa in Munich,A modern villa in munich with 6 bedroom(s).,484.83,villa,12,6,6,-11.754278,82.298661,2024-09-15 04:11:12
+503,78,16,Bright apartment in Austin,A bright apartment in austin with 1 bedroom(s).,127.28,apartment,2,1,1,-19.056706,-107.296679,2022-02-07 11:56:16
+504,9,6,Rustic apartment in Madrid,A rustic apartment in madrid with 1 bedroom(s).,128.98,apartment,2,1,1,-6.226525,-89.228291,2023-04-10 03:35:14
+505,69,11,Rustic house in Berlin,A rustic house in berlin with 4 bedroom(s).,206.32,house,8,4,4,45.340815,115.897832,2022-08-02 22:03:59
+506,28,26,Sunny studio in Singapore,A sunny studio in singapore with 1 bedroom(s).,147.98,studio,2,1,1,42.361023,-108.668252,2022-08-04 05:40:07
+507,182,30,Spacious studio in Sydney,A spacious studio in sydney with 1 bedroom(s).,104.48,studio,2,1,1,36.196469,14.56557,2022-07-23 04:41:23
+508,107,5,Bright apartment in Barcelona,A bright apartment in barcelona with 1 bedroom(s).,156.01,apartment,2,1,1,-15.468394,98.469208,2023-12-01 09:32:10
+509,162,12,Quiet apartment in Munich,A quiet apartment in munich with 3 bedroom(s).,137.9,apartment,6,3,3,-24.838879,83.446936,2024-05-13 07:08:51
+510,175,30,Rustic house in Sydney,A rustic house in sydney with 5 bedroom(s).,325.11,house,10,5,4,54.374026,-0.503754,2022-01-21 22:51:33
+511,112,3,Modern studio in London,A modern studio in london with 1 bedroom(s).,120.53,studio,2,1,1,-0.673373,-109.984692,2022-11-06 18:03:40
+512,78,26,Rustic loft in Singapore,A rustic loft in singapore with 2 bedroom(s).,237.28,loft,4,2,1,50.923085,-117.866397,2023-07-27 16:39:58
+513,160,13,Rustic apartment in New York,A rustic apartment in new york with 2 bedroom(s).,215.77,apartment,4,2,1,29.747097,119.672222,2024-04-08 06:56:19
+514,134,18,Modern apartment in Vancouver,A modern apartment in vancouver with 2 bedroom(s).,128.77,apartment,4,2,1,-18.626548,18.151334,2023-10-02 16:21:48
+515,152,1,Rustic villa in Paris,A rustic villa in paris with 3 bedroom(s).,684.37,villa,6,3,2,-15.866022,89.022603,2024-05-15 16:07:46
+516,32,12,Quiet apartment in Munich,A quiet apartment in munich with 2 bedroom(s).,130.94,apartment,4,2,2,35.655994,134.162619,2024-07-08 09:36:47
+517,145,11,Luxury apartment in Berlin,A luxury apartment in berlin with 1 bedroom(s).,127.87,apartment,2,1,1,-4.966286,-43.175416,2022-10-14 22:24:33
+518,200,4,Charming condo in Edinburgh,A charming condo in edinburgh with 2 bedroom(s).,147.63,condo,4,2,1,5.430959,-80.430622,2024-05-21 13:05:05
+519,20,29,Bright apartment in Kochi,A bright apartment in kochi with 1 bedroom(s).,44.63,apartment,2,1,1,27.682244,-11.256499,2024-11-28 12:55:16
+520,188,21,Bright house in Tokyo,A bright house in tokyo with 5 bedroom(s).,314.6,house,10,5,4,42.381183,-81.026531,2022-09-18 15:45:29
+521,178,23,Sunny apartment in Bangkok,A sunny apartment in bangkok with 3 bedroom(s).,78.44,apartment,6,3,3,5.543237,-111.196005,2022-11-18 17:23:58
+522,147,20,Quiet studio in Cancun,A quiet studio in cancun with 1 bedroom(s).,67.97,studio,2,1,1,-35.971786,-78.607782,2024-01-31 09:23:19
+523,108,1,Luxury apartment in Paris,A luxury apartment in paris with 1 bedroom(s).,142.55,apartment,2,1,1,53.682066,-37.60573,2023-08-04 06:11:52
+524,12,1,Sunny condo in Paris,A sunny condo in paris with 1 bedroom(s).,204.05,condo,2,1,1,8.117643,-36.380493,2024-07-15 10:50:24
+525,163,24,Rustic house in Phuket,A rustic house in phuket with 3 bedroom(s).,164.57,house,6,3,2,36.167878,60.149601,2022-11-02 23:20:05
+526,102,22,Charming condo in Kyoto,A charming condo in kyoto with 3 bedroom(s).,153.56,condo,6,3,2,14.099445,138.681463,2024-06-26 23:17:41
+527,144,6,Spacious apartment in Madrid,A spacious apartment in madrid with 3 bedroom(s).,89.23,apartment,6,3,3,24.391419,-97.008952,2022-04-19 18:33:12
+528,47,17,Rustic condo in Toronto,A rustic condo in toronto with 1 bedroom(s).,122.14,condo,2,1,1,-12.503747,-64.432651,2024-06-28 02:51:34
+529,88,13,Cozy villa in New York,A cozy villa in new york with 3 bedroom(s).,698.48,villa,6,3,2,-21.949199,-113.504626,2024-12-17 10:24:16
+530,47,4,Modern apartment in Edinburgh,A modern apartment in edinburgh with 3 bedroom(s).,105.96,apartment,6,3,2,36.830469,-78.35861,2024-04-14 21:10:03
+531,77,11,Cozy villa in Berlin,A cozy villa in berlin with 4 bedroom(s).,308.65,villa,8,4,3,-30.125578,-81.535651,2023-10-26 08:24:52
+532,151,2,Luxury studio in Nice,A luxury studio in nice with 1 bedroom(s).,94.41,studio,2,1,1,9.297944,83.145294,2024-02-28 03:17:03
+533,105,18,Cozy apartment in Vancouver,A cozy apartment in vancouver with 2 bedroom(s).,109.49,apartment,4,2,2,51.37351,-114.971835,2022-07-27 07:48:35
+534,22,5,Bright villa in Barcelona,A bright villa in barcelona with 5 bedroom(s).,481.4,villa,10,5,5,38.288159,-81.560902,2022-12-11 07:34:27
+535,159,18,Bright loft in Vancouver,A bright loft in vancouver with 2 bedroom(s).,157.21,loft,4,2,1,25.305885,-74.806948,2022-05-04 15:17:38
+536,150,22,Charming apartment in Kyoto,A charming apartment in kyoto with 2 bedroom(s).,164.95,apartment,4,2,1,-35.451527,79.579395,2022-05-24 09:05:25
+537,111,27,Spacious condo in Dubai,A spacious condo in dubai with 1 bedroom(s).,234.27,condo,2,1,1,21.044531,138.502637,2023-10-14 21:21:40
+538,170,25,Charming apartment in Bali,A charming apartment in bali with 3 bedroom(s).,77.29,apartment,6,3,2,-5.83702,4.145822,2023-11-04 00:58:44
+539,3,30,Cozy apartment in Sydney,A cozy apartment in sydney with 1 bedroom(s).,177.2,apartment,2,1,1,1.316303,121.722408,2024-09-28 12:34:05
+540,172,21,Cozy condo in Tokyo,A cozy condo in tokyo with 3 bedroom(s).,151.95,condo,6,3,2,27.224591,-24.691422,2024-02-10 19:22:24
+541,119,25,Sunny apartment in Bali,A sunny apartment in bali with 3 bedroom(s).,95.69,apartment,6,3,2,53.624785,0.035967,2023-03-30 23:01:48
+542,158,30,Sunny apartment in Sydney,A sunny apartment in sydney with 3 bedroom(s).,158.57,apartment,6,3,2,40.841449,-60.290126,2024-10-08 11:02:17
+543,29,23,Stylish house in Bangkok,A stylish house in bangkok with 3 bedroom(s).,86.75,house,6,3,2,16.910223,13.383057,2023-02-01 21:47:36
+544,191,20,Modern villa in Cancun,A modern villa in cancun with 4 bedroom(s).,315.18,villa,8,4,4,-27.256909,132.062118,2023-04-12 16:46:50
+545,158,28,Rustic apartment in Goa,A rustic apartment in goa with 3 bedroom(s).,44.57,apartment,6,3,2,28.068035,118.437523,2022-01-05 13:41:43
+546,71,2,Stylish studio in Nice,A stylish studio in nice with 1 bedroom(s).,103.44,studio,2,1,1,28.017348,5.978416,2024-01-11 16:48:02
+547,137,8,Stylish studio in Florence,A stylish studio in florence with 1 bedroom(s).,96.21,studio,2,1,1,-8.375804,-14.198101,2023-11-17 02:56:36
+548,20,24,Stylish cabin in Phuket,A stylish cabin in phuket with 1 bedroom(s).,138.9,cabin,2,1,1,-20.312318,-31.109349,2022-05-09 20:40:06
+549,65,14,Quiet apartment in Miami,A quiet apartment in miami with 1 bedroom(s).,164.26,apartment,2,1,1,-29.215935,-55.643013,2023-11-29 01:52:21
+550,113,8,Luxury house in Florence,A luxury house in florence with 2 bedroom(s).,268.89,house,4,2,2,22.534876,36.312307,2022-06-25 01:58:02
+551,16,29,Modern apartment in Kochi,A modern apartment in kochi with 3 bedroom(s).,36.49,apartment,6,3,2,-34.521117,44.899433,2024-06-03 02:06:43
+552,25,2,Stylish apartment in Nice,A stylish apartment in nice with 2 bedroom(s).,169.09,apartment,4,2,1,-16.688802,41.88548,2022-01-22 14:24:29
+553,167,29,Quiet condo in Kochi,A quiet condo in kochi with 3 bedroom(s).,56.09,condo,6,3,3,5.407676,-31.387709,2023-01-30 03:06:00
+554,164,3,Modern house in London,A modern house in london with 3 bedroom(s).,347.61,house,6,3,2,-4.460879,9.977812,2024-06-29 05:15:08
+555,132,2,Stylish condo in Nice,A stylish condo in nice with 1 bedroom(s).,158.9,condo,2,1,1,-8.881176,119.009916,2022-10-26 04:30:19
+556,151,10,Rustic villa in Amsterdam,A rustic villa in amsterdam with 5 bedroom(s).,657.88,villa,10,5,5,-34.268235,16.919124,2022-04-22 13:22:12
+557,49,21,Quiet loft in Tokyo,A quiet loft in tokyo with 1 bedroom(s).,258.35,loft,2,1,1,29.478158,145.119279,2023-11-10 18:36:21
+558,11,14,Bright villa in Miami,A bright villa in miami with 5 bedroom(s).,464.45,villa,10,5,4,-18.059412,-119.00179,2023-04-02 22:14:29
+559,190,8,Quiet villa in Florence,A quiet villa in florence with 6 bedroom(s).,558.5,villa,12,6,5,-19.468364,-70.253982,2022-01-14 11:00:04
+560,50,18,Bright apartment in Vancouver,A bright apartment in vancouver with 1 bedroom(s).,114.06,apartment,2,1,1,-35.609517,-111.984895,2023-02-10 09:11:14
+561,63,24,Rustic studio in Phuket,A rustic studio in phuket with 1 bedroom(s).,60.99,studio,2,1,1,-20.401244,-72.459095,2023-06-21 03:01:53
+562,79,13,Charming villa in New York,A charming villa in new york with 3 bedroom(s).,651.35,villa,6,3,2,-15.985007,98.561698,2022-12-17 16:51:39
+563,49,29,Modern studio in Kochi,A modern studio in kochi with 1 bedroom(s).,27.31,studio,2,1,1,13.255471,67.475552,2023-10-14 19:27:40
+564,76,2,Rustic apartment in Nice,A rustic apartment in nice with 3 bedroom(s).,152.19,apartment,6,3,3,-7.23194,-105.620077,2023-07-28 04:54:32
+565,121,29,Sunny loft in Kochi,A sunny loft in kochi with 2 bedroom(s).,57.23,loft,4,2,2,-23.256646,-15.208722,2024-11-08 11:31:33
+566,184,11,Bright house in Berlin,A bright house in berlin with 4 bedroom(s).,186.56,house,8,4,3,7.375816,36.920405,2022-03-16 06:14:57
+567,109,28,Spacious apartment in Goa,A spacious apartment in goa with 1 bedroom(s).,53.8,apartment,2,1,1,17.137039,132.584705,2024-02-06 08:35:05
+568,59,3,Quiet apartment in London,A quiet apartment in london with 2 bedroom(s).,176.0,apartment,4,2,2,6.525311,47.703971,2024-05-22 14:29:27
+569,7,26,Stylish house in Singapore,A stylish house in singapore with 5 bedroom(s).,254.52,house,10,5,5,4.168849,-48.281283,2022-06-05 11:57:05
+570,71,17,Sunny apartment in Toronto,A sunny apartment in toronto with 3 bedroom(s).,126.57,apartment,6,3,3,-30.159089,-100.735857,2022-03-20 17:12:21
+571,49,11,Spacious apartment in Berlin,A spacious apartment in berlin with 2 bedroom(s).,102.98,apartment,4,2,2,59.84051,83.143506,2023-06-19 00:49:19
+572,194,12,Luxury apartment in Munich,A luxury apartment in munich with 2 bedroom(s).,148.3,apartment,4,2,2,7.200399,18.414683,2022-11-02 12:14:14
+573,142,7,Luxury condo in Rome,A luxury condo in rome with 2 bedroom(s).,141.21,condo,4,2,1,32.251035,4.578307,2022-06-25 10:54:12
+574,143,23,Bright house in Bangkok,A bright house in bangkok with 5 bedroom(s).,96.59,house,10,5,5,-2.529983,35.927281,2022-09-20 09:47:00
+575,109,22,Stylish house in Kyoto,A stylish house in kyoto with 4 bedroom(s).,205.83,house,8,4,3,36.284158,66.440024,2023-09-06 10:37:01
+576,146,2,Quiet house in Nice,A quiet house in nice with 3 bedroom(s).,203.38,house,6,3,2,58.017212,-64.864753,2024-03-11 02:34:24
+577,164,4,Bright apartment in Edinburgh,A bright apartment in edinburgh with 2 bedroom(s).,127.81,apartment,4,2,1,-30.675849,-91.835442,2022-12-30 01:52:44
+578,73,1,Stylish villa in Paris,A stylish villa in paris with 4 bedroom(s).,507.04,villa,8,4,4,-16.696057,58.083871,2022-05-24 14:03:23
+579,101,6,Stylish house in Madrid,A stylish house in madrid with 4 bedroom(s).,213.64,house,8,4,4,58.959512,-85.132829,2024-05-06 15:47:04
+580,80,29,Charming apartment in Kochi,A charming apartment in kochi with 1 bedroom(s).,37.77,apartment,2,1,1,41.78961,59.494014,2022-11-22 19:36:19
+581,37,17,Cozy house in Toronto,A cozy house in toronto with 5 bedroom(s).,182.94,house,10,5,4,-33.602996,-12.206033,2023-05-21 16:21:58
+582,189,16,Cozy house in Austin,A cozy house in austin with 5 bedroom(s).,181.48,house,10,5,5,-11.208822,117.8684,2024-07-23 11:44:53
+583,107,10,Modern condo in Amsterdam,A modern condo in amsterdam with 2 bedroom(s).,195.81,condo,4,2,2,-22.042189,46.788859,2024-06-03 14:24:58
+584,62,23,Cozy villa in Bangkok,A cozy villa in bangkok with 3 bedroom(s).,222.78,villa,6,3,3,-12.622372,49.582465,2023-08-21 21:58:04
+585,196,24,Stylish condo in Phuket,A stylish condo in phuket with 1 bedroom(s).,125.73,condo,2,1,1,59.531638,-99.335918,2022-08-04 16:49:49
+586,12,15,Rustic apartment in San Francisco,A rustic apartment in san francisco with 1 bedroom(s).,170.87,apartment,2,1,1,-37.328212,52.493988,2024-08-03 12:21:47
+587,30,7,Spacious apartment in Rome,A spacious apartment in rome with 2 bedroom(s).,107.84,apartment,4,2,2,-7.288964,82.142528,2024-09-19 14:04:05
+588,42,8,Spacious house in Florence,A spacious house in florence with 5 bedroom(s).,201.97,house,10,5,5,43.849585,43.886911,2022-12-29 09:07:34
+589,174,6,Cozy condo in Madrid,A cozy condo in madrid with 1 bedroom(s).,143.28,condo,2,1,1,-24.650352,-23.316513,2023-03-20 22:02:57
+590,165,7,Rustic villa in Rome,A rustic villa in rome with 6 bedroom(s).,507.77,villa,12,6,6,-0.938161,-36.752452,2022-04-18 19:00:03
+591,62,25,Quiet condo in Bali,A quiet condo in bali with 1 bedroom(s).,110.84,condo,2,1,1,-30.861357,-6.145663,2022-01-30 10:52:12
+592,171,3,Sunny villa in London,A sunny villa in london with 4 bedroom(s).,748.71,villa,8,4,4,32.40115,-108.116622,2024-11-15 03:52:20
+593,102,21,Rustic apartment in Tokyo,A rustic apartment in tokyo with 1 bedroom(s).,166.49,apartment,2,1,1,-27.919604,-62.279404,2024-01-01 10:11:00
+594,57,11,Bright house in Berlin,A bright house in berlin with 2 bedroom(s).,175.52,house,4,2,2,25.79617,-44.816441,2024-01-26 01:04:56
+595,183,10,Sunny apartment in Amsterdam,A sunny apartment in amsterdam with 3 bedroom(s).,157.82,apartment,6,3,3,-14.805985,-94.418967,2023-10-27 20:44:24
+596,171,25,Quiet villa in Bali,A quiet villa in bali with 4 bedroom(s).,252.55,villa,8,4,3,-33.248652,-115.234824,2024-07-08 12:32:40
+597,60,17,Cozy condo in Toronto,A cozy condo in toronto with 3 bedroom(s).,159.74,condo,6,3,3,21.634867,122.130445,2023-09-25 07:47:27
+598,128,20,Quiet condo in Cancun,A quiet condo in cancun with 1 bedroom(s).,107.51,condo,2,1,1,-19.798821,-18.548055,2022-03-19 07:59:46
+599,165,15,Quiet house in San Francisco,A quiet house in san francisco with 4 bedroom(s).,263.29,house,8,4,4,12.087286,143.943226,2023-08-14 00:14:54
+600,171,11,Cozy condo in Berlin,A cozy condo in berlin with 1 bedroom(s).,116.04,condo,2,1,1,40.145181,67.995073,2023-04-01 19:55:24

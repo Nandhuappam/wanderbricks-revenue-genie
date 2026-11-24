@@ -106,6 +106,22 @@ WHERE status = 'pending';
 
 ---
 
+## Expected answers on the synthetic dataset
+
+These come from `tests/validate_local.py`, with "today" set to 2026-11-24 so that last quarter is Q3 2026.
+
+| # | Expected result |
+|---|---|
+| Q1 | Revenue last quarter = **879,572.47** |
+| Q2 | Vancouver 298, New York 296, Amsterdam 294, London 288, Berlin 279 |
+| Q3 | Villa 2,373.47 · House 1,049.59 · Loft 971.70 · Cabin 824.42 · Condo 717.01 · Apartment 632.15 · Studio 471.01 |
+| Q4 | Host-160 117,458.66 · Host-2 107,273.92 · Host-138 106,389.51 · … |
+| Q5 | **18.4%** of confirmed bookings are from business users |
+| Q7 | France 20.3% · UAE 20.0% · Italy 19.4% (highest) |
+| Q10 | **1,262** pending bookings worth **1,092,225.09** |
+
+---
+
 ## Scoring sheet
 
 | # | Question | Correct SQL? | Correct number? | Notes |

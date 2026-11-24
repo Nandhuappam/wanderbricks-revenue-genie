@@ -1,0 +1,61 @@
+destination_id,destination,country,state_or_province,state_or_province_code,description
+1,Paris,France,Ile-de-France,IDF,"## Paris
+Popular France destination in Ile-de-France. Known for food, culture and transport links."
+2,Nice,France,Provence-Alpes-Cote d'Azur,PAC,"## Nice
+Popular France destination in Provence-Alpes-Cote d'Azur. Known for food, culture and transport links."
+3,London,United Kingdom,England,ENG,"## London
+Popular United Kingdom destination in England. Known for food, culture and transport links."
+4,Edinburgh,United Kingdom,Scotland,SCT,"## Edinburgh
+Popular United Kingdom destination in Scotland. Known for food, culture and transport links."
+5,Barcelona,Spain,Catalonia,CT,"## Barcelona
+Popular Spain destination in Catalonia. Known for food, culture and transport links."
+6,Madrid,Spain,Community of Madrid,MD,"## Madrid
+Popular Spain destination in Community of Madrid. Known for food, culture and transport links."
+7,Rome,Italy,Lazio,LAZ,"## Rome
+Popular Italy destination in Lazio. Known for food, culture and transport links."
+8,Florence,Italy,Tuscany,TOS,"## Florence
+Popular Italy destination in Tuscany. Known for food, culture and transport links."
+9,Lisbon,Portugal,Lisbon,LIS,"## Lisbon
+Popular Portugal destination in Lisbon. Known for food, culture and transport links."
+10,Amsterdam,Netherlands,North Holland,NH,"## Amsterdam
+Popular Netherlands destination in North Holland. Known for food, culture and transport links."
+11,Berlin,Germany,Berlin,BE,"## Berlin
+Popular Germany destination in Berlin. Known for food, culture and transport links."
+12,Munich,Germany,Bavaria,BY,"## Munich
+Popular Germany destination in Bavaria. Known for food, culture and transport links."
+13,New York,United States,New York,NY,"## New York
+Popular United States destination in New York. Known for food, culture and transport links."
+14,Miami,United States,Florida,FL,"## Miami
+Popular United States destination in Florida. Known for food, culture and transport links."
+15,San Francisco,United States,California,CA,"## San Francisco
+Popular United States destination in California. Known for food, culture and transport links."
+16,Austin,United States,Texas,TX,"## Austin
+Popular United States destination in Texas. Known for food, culture and transport links."
+17,Toronto,Canada,Ontario,ON,"## Toronto
+Popular Canada destination in Ontario. Known for food, culture and transport links."
+18,Vancouver,Canada,British Columbia,BC,"## Vancouver
+Popular Canada destination in British Columbia. Known for food, culture and transport links."
+19,Mexico City,Mexico,Mexico City,CMX,"## Mexico City
+Popular Mexico destination in Mexico City. Known for food, culture and transport links."
+20,Cancun,Mexico,Quintana Roo,ROO,"## Cancun
+Popular Mexico destination in Quintana Roo. Known for food, culture and transport links."
+21,Tokyo,Japan,Tokyo,13,"## Tokyo
+Popular Japan destination in Tokyo. Known for food, culture and transport links."
+22,Kyoto,Japan,Kyoto,26,"## Kyoto
+Popular Japan destination in Kyoto. Known for food, culture and transport links."
+23,Bangkok,Thailand,Bangkok,10,"## Bangkok
+Popular Thailand destination in Bangkok. Known for food, culture and transport links."
+24,Phuket,Thailand,Phuket,83,"## Phuket
+Popular Thailand destination in Phuket. Known for food, culture and transport links."
+25,Bali,Indonesia,Bali,BA,"## Bali
+Popular Indonesia destination in Bali. Known for food, culture and transport links."
+26,Singapore,Singapore,Central Region,01,"## Singapore
+Popular Singapore destination in Central Region. Known for food, culture and transport links."
+27,Dubai,United Arab Emirates,Dubai,DU,"## Dubai
+Popular United Arab Emirates destination in Dubai. Known for food, culture and transport links."
+28,Goa,India,Goa,GA,"## Goa
+Popular India destination in Goa. Known for food, culture and transport links."
+29,Kochi,India,Kerala,KL,"## Kochi
+Popular India destination in Kerala. Known for food, culture and transport links."
+30,Sydney,Australia,New South Wales,NSW,"## Sydney
+Popular Australia destination in New South Wales. Known for food, culture and transport links."

@@ -44,6 +44,23 @@ Cleaned data is published as Gold views in **`wanderbricks_genie.gold`** (see [`
 
 Optional roadmap tables: `payments`, `reviews`, `amenities` / `property_amenities`.
 
+#### Synthetic dataset (included in this repo)
+
+If `samples.wanderbricks` isn't available, or you want to demo the cleanup, use the generated dataset in [`data/csv/`](data/csv/). It has the same 5-table schema and is built by [`data/generate_data.py`](data/generate_data.py) with a fixed seed, so it is reproducible.
+
+| Table | Rows | Notes |
+|---|---|---|
+| destinations | 30 | 30 cities across 15 countries |
+| hosts | 200 | Fake PII (`@example.com`), rating 1.0–5.0 |
+| properties | 600 | 7 property types; price scales with destination |
+| users | 2,000 | ~18% business accounts |
+| bookings | 10,075 | Jan 2025 – Jan 2027 check-ins; seasonal pricing; 72% confirmed / 18% cancelled / 10% pending |
+
+**Dirty rows added on purpose** (the Gold layer removes them): 150 messy status values (`" Confirmed"`, `CANCELLED`…), 75 duplicate booking IDs, 40 stays where check-out ≤ check-in, 20 null amounts and 15 negative amounts.
+After cleanup: **10,075 → 9,925** bookings, with 3 clean status values. This is verified by [`tests/validate_local.py`](tests/validate_local.py).
+
+Load it into Databricks with [`sql/00_load_synthetic_data.sql`](sql/00_load_synthetic_data.sql).
+
 ### 3. Sample Questions (what users will type)
 
 1. *"What was total booking revenue last quarter?"*
@@ -90,8 +107,15 @@ The expected SQL for each question, plus 5 harder ones, is in [`genie/benchmark_
 ```
 ├── README.md                        ← 5-point game plan (this file)
 ├── docs/
-│   └── Genie_Use_Case_Revenue_Booking_Analyst.pdf
+│   ├── Genie_Use_Case_Revenue_Booking_Analyst.pdf   ← original use-case doc
+│   └── Game_Plan_Revenue_Booking_Analyst.pdf        ← 5-point game plan
+├── data/
+│   ├── generate_data.py             ← synthetic data generator (seeded)
+│   └── csv/                         ← 5 generated tables
+├── tests/
+│   └── validate_local.py            ← DuckDB check of cleanup + benchmark answers
 ├── sql/
+│   ├── 00_load_synthetic_data.sql   ← optional: load CSVs into Unity Catalog
 │   ├── 01_gold_views.sql            ← cleanup + Gold views (PII removed)
 │   └── 02_data_quality_checks.sql   ← checks to run before and after
 ├── genie/
