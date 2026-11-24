@@ -94,7 +94,7 @@ FROM samples.wanderbricks.users;
 -- 4. dim_host: PII-free host attributes (name, email, phone removed)
 -- ---------------------------------------------------------------------
 CREATE OR REPLACE VIEW dim_host
-COMMENT 'Host attributes. PII (name, email, phone) intentionally excluded; identify hosts by host_id.'
+COMMENT 'Host attributes. PII (name, email, phone) intentionally excluded. Identify hosts by host_id.'
 AS
 SELECT
   host_id,

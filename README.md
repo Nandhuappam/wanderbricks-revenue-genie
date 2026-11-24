@@ -106,12 +106,15 @@ The expected SQL for each question, plus 5 harder ones, is in [`genie/benchmark_
 
 ```
 ├── README.md                        ← 5-point game plan (this file)
+├── SETUP_GUIDE.md                   ← step-by-step Databricks setup
 ├── docs/
 │   ├── Genie_Use_Case_Revenue_Booking_Analyst.pdf   ← original use-case doc
 │   └── Game_Plan_Revenue_Booking_Analyst.pdf        ← 5-point game plan
 ├── data/
 │   ├── generate_data.py             ← synthetic data generator (seeded)
 │   └── csv/                         ← 5 generated tables
+├── notebooks/
+│   └── 01_setup_data_and_gold.py    ← Run all: load CSVs → bronze → gold
 ├── tests/
 │   └── validate_local.py            ← DuckDB check of cleanup + benchmark answers
 ├── sql/
@@ -129,9 +132,9 @@ The expected SQL for each question, plus 5 harder ones, is in [`genie/benchmark_
 
 ## Quick start
 
-1. **Gold layer:** in a SQL warehouse, run `sql/02_data_quality_checks.sql` (section A), then `sql/01_gold_views.sql`.
-   Change the catalog name `wanderbricks_genie` if your team uses a different one.
-2. **Genie space:** *New → Genie space*, add the 5 `wanderbricks_genie.gold.*` views, paste `genie/instructions.md` into the instructions, and add the example SQL from `genie/benchmark_questions.md`.
-3. **Benchmark:** add the 10 questions under *Benchmarks*, run them, and fix the instructions until accuracy is ≥ 90%.
-4. **App:** *Compute → Apps → Create app → Custom*, point it at the `app/` folder, add the Genie space as an app resource with key `genie-space` (*Can run*), and deploy.
-   Give the app's service principal `SELECT` on the Gold views and *Can use* on the SQL warehouse.
+👉 **Follow [`SETUP_GUIDE.md`](SETUP_GUIDE.md)**: a beginner-friendly, click-by-click guide:
+
+1. Connect GitHub to Databricks and add this repo as a **Git folder**
+2. Open `notebooks/01_setup_data_and_gold` and click **Run all** (loads the CSVs and builds the Gold views)
+3. Create the **Genie space** on the 5 Gold views and paste `genie/instructions.md`
+4. Create the **Databricks App** from the `app/` folder and link it to the Genie space
